@@ -1,0 +1,128 @@
+    body{
+        background-color: #DBDBDBE2;
+        font-family: 'M PLUS 1', sans-serif;
+    }
+
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* gap: 0.5rem;  */
+        padding: 3rem 0 0 3.5rem;
+        max-width: 50%;
+        overflow-x: hidden;
+    }
+    
+    .title {
+        display: flex;
+        color: #646060;
+        align-items: center;
+        font-size: 1.25rem;
+        font-weight: normal;
+        margin-bottom: 0.2rem;
+    }
+    
+    .info-links {
+        color: #afafaf;
+    }
+    
+    .info-link {
+        color: #afafaf;
+        text-decoration: none;
+        line-height: 1.6rem;
+    }
+    
+    .title-link {
+        color: #646060;
+        text-decoration: none;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .project-link {
+        color: #646060;
+        text-decoration: none;
+    
+        vertical-align: top;
+    
+        white-space: nowrap;
+    }
+    
+    .project-links {
+        text-align: end;
+        margin-top: 1rem;
+        line-height: 1.6rem;
+    }
+    
+    li {
+        font-size: 0.938rem;
+        letter-spacing: 0px;
+    }
+    
+    .menu-button {
+        display: none; /* hide menu button by default on desktop */
+    }
+
+    .current-page{
+        color:  #afafaf;
+      }
+      
+    
+    @media screen and (max-width: 767px) {
+        .home-container {
+        font-size: 0.875rem;
+        max-width: 100%;
+        }
+    
+        .title {
+        white-space: nowrap;
+        overflow: hidden;
+        margin-left: 0.2rem;
+        font-size: 1.25rem;
+        
+        
+        
+        }
+    
+        .menu-button {
+       
+        margin-left: 0;
+        font-weight: normal;
+        font-family: "M PLUS 1", sans-serif;
+        display: block;
+        
+        background-color: transparent; /* Set background color to transparent */
+        border: none; /* Remove border */
+        color: #646060; /* Set text color to match links */
+        font-size: 20px; /* Set font size to match links */
+        text-decoration: none; /* Remove underline */
+        }
+        .info-links {
+        display: none; /* hide info-links by default on mobile */
+        margin-left: 6px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        }
+    
+        .info-links.show {
+        display: block; /* show info-links when menu button is clicked on mobile */
+        }
+    
+        .project-links {
+        display: none; /* hide project links by default on mobile */
+        text-align: start;
+        }
+    
+        .project-links.show {
+        display: block; /* show project links when menu button is clicked on mobile */
+        margin-top: 0; /* Add margin top to align the project links with the title */
+        padding-left: 0; /* Remove padding left from the ul element */
+        list-style: none; /* Remove default list style */
+        margin-left: 6px;
+        }
+    }
