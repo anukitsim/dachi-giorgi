@@ -390,7 +390,7 @@
         font-size: 1.25rem;
         font-weight: normal;
         width: 30%;
-        top: 50%;
+        top: 45%;
         right: 5%;
         text-align: end;
         position: absolute;
@@ -398,7 +398,7 @@
     
         .invasiveModification-video {
             position: absolute;
-            top: 60%;
+            top: 55%;
             left: 62%;
             z-index: 1;
             
