@@ -8,7 +8,7 @@ import Steps from "./components/steps/steps.component";
 import Hyphen from './components/hyphen/hyphen.component'
 import Protection from "./components/protection/protection.component";
 import FrenchLessons from "./components/french-lessons/french-lessons.component";
-
+import './index.css';
 import March32 from "./components/march32/march32.component";
 import LuceSide from "./components/in-luce-side/in-luce-side.component";
 import PSR from "./components/psr/psr.component";
@@ -22,7 +22,7 @@ const App = () => {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />}>
+        <Route path="/" element={<Home />} />
           <Route path="contact" element={<Contact />} />
           <Route path="cv" element={<Cv />} />
           <Route path="thewitness" element={<Witness />} />
@@ -43,7 +43,7 @@ const App = () => {
           <Route path="broken-city" element={<BrokenCity />} />
 
           <Route path="march32" element={<March32 />} />
-        </Route>
+        
       </Routes>
     </div>
   );
