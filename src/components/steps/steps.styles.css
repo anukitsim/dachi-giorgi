@@ -1,0 +1,46 @@
+.steps-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  
+}
+
+.video-steps{
+    margin-top: 15%;
+
+}
+
+.steps-caption1 {
+    display: flex;
+    justify-content: start;
+    font-size: 0.75rem;
+    font-weight: normal;
+   margin-top: -1%;
+    color: #646060;
+   
+
+    
+    
+}
+
+.steps-caption2 {
+    display: flex;
+    justify-content: end;
+    font-size: 0.75rem;
+    font-weight: normal;
+    margin-top: -3%;
+  
+    color: #646060;
+    
+    
+}
+
+.music-link{
+    text-decoration: none;
+    color: #646060;
+}
+
+.music-link:hover {
+    text-decoration: none;
+    color: #646060;
+}

@@ -44,6 +44,8 @@
   margin-bottom: 0.1rem;
 }
 
+
+
 .video-caption2 {
   margin-left: auto;
   font-size: 0.875rem;
@@ -147,6 +149,7 @@
     margin-top: 10.7rem;
     display: flex;
     flex-direction: column;
+    
   }
   
   .witness-text1 {
