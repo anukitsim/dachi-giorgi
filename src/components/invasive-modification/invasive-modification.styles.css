@@ -35,7 +35,7 @@
     width: 35%;
     top: 45%;
     right: 4.5%;
-    text-align: end;
+    text-align: left;
     position: absolute;
     }
 
@@ -83,7 +83,7 @@
     color: #484848;
     left: 50%;
     top: 152.5%;
-    text-align: start;
+    text-align: left;
     z-index: 1;
     position: absolute;
 
@@ -139,7 +139,7 @@
         width: 90%;
         top: 115%;
         right: 5%;
-        text-align: end;
+        text-align: right;
         position: absolute;
         }
     
@@ -189,7 +189,7 @@
         color: #484848;
         left: 10%;
         top: 200.5%;
-        text-align: start;
+        text-align: left;
         z-index: 1;
         position: absolute;
         
@@ -226,7 +226,7 @@
       width: 70%;
       top: 65%;
       right: 15%;
-      text-align: end;
+      text-align: left;
     }
   
     .invasiveModification-video {
@@ -283,7 +283,7 @@
     width: 40%;
     top: 40%;
     left: 60%;
-    text-align: end;
+    text-align: left;
     position: absolute;
     }
 
@@ -334,7 +334,7 @@
     color: #484848;
     left: 52%;
     top: 129.5%;
-    text-align: start;
+    text-align: right;
     z-index: 1;
     position: absolute;
 
@@ -392,7 +392,7 @@
         width: 30%;
         top: 45%;
         right: 5%;
-        text-align: end;
+        text-align: right;
         position: absolute;
         }
     
@@ -443,7 +443,7 @@
         color: #484848;
         left: 57%;
         top: 133%;
-        text-align: start;
+        text-align: left;
         z-index: 1;
         position: absolute;
     

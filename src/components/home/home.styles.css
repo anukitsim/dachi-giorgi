@@ -172,7 +172,7 @@ li {
       }
       .info-links {
       display: none; 
-      text-align: start;
+      text-align: left;
      
       
       }
@@ -184,7 +184,7 @@ li {
   
       .project-links {
       display: none; 
-      text-align: start;
+      text-align: left;
       margin-left: 2rem;
       }
   
