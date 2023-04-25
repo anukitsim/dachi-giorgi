@@ -44,3 +44,165 @@
     text-decoration: none;
     color: #646060;
 }
+
+@media (max-width: 767px) {
+    .steps-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+      
+    }
+    
+    .video-steps{
+        margin-top: -30%;
+    
+    }
+    
+    .steps-caption1 {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 0.75rem;
+        font-weight: normal;
+        margin-top: -50%;
+        color: #646060;
+       
+    
+        
+        
+    }
+    
+    .steps-caption2 {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        font-size: 0.75rem;
+        font-weight: normal;
+      margin-top: -9.5%;
+      
+        color: #646060;
+        
+        
+    }
+    
+    .music-link{
+        text-decoration: none;
+        color: #646060;
+    }
+    
+    .music-link:hover {
+        text-decoration: none;
+        color: #646060;
+    }
+  }
+  
+  @media (min-width: 1280px) and (max-width: 1366px){
+    .steps-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+      
+    }
+    
+    .video-steps{
+        margin-top: 12%;
+        margin-left: 5%;
+    
+    }
+
+   
+    
+    .steps-caption1 {
+     
+        font-size: 0.75rem;
+        font-weight: normal;
+        margin-left: 5%;
+        color: #646060;
+        margin-top: -5%;
+    
+        
+        
+    }
+    
+    .steps-caption2 {
+        margin-right: -5%;
+        margin-top: -4%;
+        font-size: 0.75rem;
+        font-weight: normal;
+      
+    
+        
+      
+        color: #646060;
+        
+        
+    }
+    
+    .music-link{
+        text-decoration: none;
+        color: #646060;
+        font-size: 0.75rem;
+        font-weight: normal;
+    }
+    
+    .music-link:hover {
+        text-decoration: none;
+        color: #646060;
+    }
+  
+    
+    
+  }
+  
+  @media (min-width: 1920px){
+  
+    .steps-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+      
+    }
+    
+    .video-steps{
+        margin-top: 15%;
+        margin-left: 10%;
+    
+    }
+    
+    .steps-caption1 {
+        display: flex;
+        justify-content: start;
+        font-size: 0.75rem;
+        font-weight: normal;
+       margin-top: -1%;
+        color: #646060;
+        margin-left: 10%;
+    
+        
+        
+    }
+    
+    .steps-caption2 {
+        display: flex;
+        justify-content: end;
+        font-size: 0.75rem;
+        font-weight: normal;
+        margin-top: -3%;
+        margin-right: -10%;
+        color: #646060;
+        
+        
+    }
+    
+    .music-link{
+        text-decoration: none;
+        color: #646060;
+    }
+    
+    .music-link:hover {
+        text-decoration: none;
+        color: #646060;
+    }
+    
+    
+  }

@@ -197,4 +197,144 @@ li {
       }
   }
 
+  @media only screen and (min-width: 1920px){
+
+body {
+  background-color: #dbdbe2;
+  font-family: 'M PLUS 1', sans-serif;
+}
+
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem; /* Adds spacing between child elements */
+  z-index: 5;
+  margin-left: -12%;
+  margin-top: 90%;
+  
+}
+
+.invasive-modification-body{
+  background-color: #080808;
+}
+
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.background-video,
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.background-img {
+  opacity: 0.5;
+}
+
+.march-background-img{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+
+
+
+.title {
+  
+  color: #646060;
+  font-size: 1.25rem;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.info-links {
+  color: #afafaf;
+ 
+}
+
+.info-links:hover {
+  color: #afafaf;
+  text-decoration: none;
+}
+
+.info-link {
+  color: #afafaf;
+  text-decoration: none;
+  line-height: 1.6rem;
+  
+}
+
+
+
+.title-link {
+  color: #646060;
+  text-decoration: none;
+}
+
+.title-link:hover {
+  color: #646060;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-link {
+  color: #646060;
+  text-decoration: none;
+
+  vertical-align: top;
+
+  white-space: nowrap;
+}
+
+.project-links {
+  text-align: end;
+ margin-right: 1rem;
+  /* margin-top: 1rem; */
+  line-height: 1.6rem;
+}
+
+.project-link:hover {
+  color: #646060;
+  text-decoration: none;
+}
+
+li {
+  font-size: 0.938rem;
+  letter-spacing: 0px;
+}
+
+.menu-button {
+  display: none; 
+}
+
+.current-page {
+  color: #afafaf;
+}
+  }
+
   

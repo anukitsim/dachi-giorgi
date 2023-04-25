@@ -19,7 +19,7 @@ const Steps = () => {
             width="100%"
             height="40rem"
           />
-          <div className="caption-container">
+         
             <p className="steps-caption1">Animated and Produced for</p>
             <p className="steps-caption2">
               <a
@@ -29,7 +29,7 @@ const Steps = () => {
                 Steps ft. MNEK & Saul Williams
               </a>
             </p>
-          </div>
+         
         </Col>
       </Row>
     </Container>

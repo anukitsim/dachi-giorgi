@@ -1,4 +1,6 @@
 .hyphen-img{
+    max-width: 100%;
     z-index: 5;
     margin-top: 2rem;
 }
+
