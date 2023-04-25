@@ -14,7 +14,7 @@
 .witness-text1 {
   font-size: 0.938rem;
   font-weight: normal;
-  align-items: start;
+  align-items: flex-start;
   color: #646060;
   text-align: start;
 }
@@ -24,7 +24,7 @@
   font-weight: normal;
   line-height: 1.5;
   color: #646060;
-  text-align: start;
+  text-align: flex-start;
 }
 
 .video-container {
