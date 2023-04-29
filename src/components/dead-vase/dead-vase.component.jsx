@@ -7,12 +7,12 @@ import Home from "../home/home.component";
 
 const DeadVase = () => {
     return (
-        <Container>
+        <Container fluid>
       <Row>
-        <Col xs={12} md={2} lg={2} className='home-container'>
+      <Col className='home-container' sm={{ span: 6  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}}>
           <Home />
        </Col>
-       <Col xs={12} md={10} lg={10} className="witness-container">
+       <Col sm={{ span: 6  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}} className="witness-container">
      <div className="vase-container">
       <div className="vase1-container">
         <img src={vase1} alt="vase1" className="vase-img1" />

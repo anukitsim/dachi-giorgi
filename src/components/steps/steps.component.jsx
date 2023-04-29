@@ -5,21 +5,23 @@ import Home from "../home/home.component";
 
 const Steps = () => {
   return (
-    <Container>
+    <Container fluid>
       <Row>
-        <Col xs={12} md={2} lg={2} className="home-container">
+        <Col className="home-container" xs={12} md={6} lg={2} xxl={2}>
           <Home />
         </Col>
-        <Col xs={12} md={10} lg={10} className="steps-container">
-          <ReactPlayer
-            url="https://vimeo.com/818803846"
-            className="video-steps"
-            controls
-            volume={1}
-            width="100%"
-            height="40rem"
-          />
-         
+        <Col className="steps-container d-flex flex-column justify-content-end" xs={12} md={6} lg={9} xxl={9}>
+          <div className="video-wrapper">
+            <ReactPlayer
+              url="https://vimeo.com/818803846"
+              className="video-steps"
+              controls
+              volume={1}
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div className="steps-captions">
             <p className="steps-caption1">Animated and Produced for</p>
             <p className="steps-caption2">
               <a
@@ -29,7 +31,7 @@ const Steps = () => {
                 Steps ft. MNEK & Saul Williams
               </a>
             </p>
-         
+          </div>
         </Col>
       </Row>
     </Container>

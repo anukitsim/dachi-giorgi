@@ -1,7 +1,4 @@
-.broken-city-container{
-    margin-top: 16%;
-    pointer-events: none;
- }
+
  
  .text1{
      color: #484848;
@@ -50,7 +47,7 @@
      font-weight: normal;
      font-size: 1.25rem;
     margin-top: 10%;
-    margin-left: 90%;
+    margin-left: 74%;
      width: 100%;
      margin-bottom: 5%;
     
@@ -70,13 +67,13 @@
  .brokenimg3 {
     width: 120%;
     margin-left: 280%;
-    margin-top: -72%;
+    margin-top: -85%;
    
     
   }
  
   .brokenimg2 {
-    margin-top: -75%;
+    margin-top: -63%;
     width: 150%;
   
   }

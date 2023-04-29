@@ -5,12 +5,12 @@ import './hyphen.styles.css';
 
 const Hyphen = () => {
     return (
-        <Container>
+        <Container fluid>
       <Row>
-        <Col xs={12} md={2} lg={2} className='home-container'>
+      <Col className='home-container' xs={{ span: 1 }} sm={{ span: 12 }}  md={{ span: 6  }} lg={{span: 2 }} xl={{span: 2}} >
           <Home />
        </Col>
-       <Col xs={12} md={10} lg={10} className="witness-container">
+       <Col className="hyphen-container" xs={{ span: 10 }} sm={{ span: 12 }} md={{ span:6 }} lg={{span: 8 }} xl={{span: 8}}>
        <img className="hyphen-img" src={hyphenImg} alt="hyphen-img" />
        </Col>
        </Row>

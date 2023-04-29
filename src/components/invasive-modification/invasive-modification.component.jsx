@@ -40,17 +40,21 @@ const InvasiveModification = () => {
   };
 
   return (
-    <Container>
+    <Container fluid>
       <Row>
-        <Col xs={12} md={2} lg={2} className="home-container">
+      <Col className="home-container" xs={12} md={6} lg={2} xxl={2}>
           <Home />
         </Col>
-        <Col xs={12} md={10} lg={9} className="invasiveModification-container">
+        <Col  className="invasiveModification-container d-flex 
+         " xs={12} md={6} lg={10} xxl={10}>
+       
+          <div className="div1">
           <h2 className="invasiveModification-header">
             Set Design for the Georgian footwear brand Invasive Modifications
           </h2>
           <img src={img1} alt="img1" className="img1" />
-
+          </div>
+          <div className="div2">
           <h2 className="video-text">
             Translating language at the core of brands world through artefacts
             within the current realm
@@ -63,9 +67,13 @@ const InvasiveModification = () => {
             volume={0}
             playing={isPlaying}
             loop={true}
+            width='100%'
+            height='50vh'
+         
            
           />
-
+          </div>
+          <div className="div3">
           <img
             src={currentImage}
             alt="img1"
@@ -82,6 +90,24 @@ const InvasiveModification = () => {
               }
 
           />
+          <div className="div4">
+          <p>Photography:</p>
+          <p>Giorgi Nakashidze</p>
+          <p>Ika Khargelia</p>
+          <p>Luka Pantskhava</p>
+          <br />
+          <p>Prop Assistant:</p>
+          <p>Polina Zhuravkova</p>
+          <br />
+          <p>Invasive Modification:</p>
+          <p>Nicolas Grigorian</p>
+          <p>Nina Ivanovna</p>
+          </div>
+         
+         
+        
+      
+          </div>
           <div className="carousel-bullets">
             {images.map((image, index) => (
               <button
@@ -93,30 +119,11 @@ const InvasiveModification = () => {
               />
             ))}
           </div>
-          <div className="card-text">
-            <div className="line-container">
-              <div className="name">Photography:</div>
-              <div className="category">
-                Giorgi Nakashidze
-                <br />
-                Ika Khargelia
-                <br />
-                Luka Pantskhava
-              </div>
-            </div>
-            <div className="line-container">
-              <div className="name">Prop Assistant:</div>
-              <div className="category">Polina Zhuravkova</div>
-            </div>
-            <div className="line-container">
-              <div className="name">Invasive Modification:</div>
-              <div className="category">
-                Nicolas Grigorian
-                <br />
-                Nina Ivanovna
-              </div>
-            </div>
-          </div>
+     
+
+
+      
+        
         </Col>
       </Row>
     </Container>

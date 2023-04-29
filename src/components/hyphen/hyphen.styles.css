@@ -1,6 +1,11 @@
-.hyphen-img{
-    max-width: 100%;
-    z-index: 5;
-    margin-top: 2rem;
+
+.hyphen-container{
+    
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+  margin-left: 4rem;
 }
 

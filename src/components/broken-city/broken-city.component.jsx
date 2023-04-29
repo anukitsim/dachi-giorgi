@@ -8,12 +8,12 @@ import brokenImg4 from "../../imgs/brokenCity4.png";
 
 const BrokenCity = () => {
     return (
-        <Container>
+        <Container fluid>
       <Row>
-        <Col xs={12} md={2} lg={2} className='home-container'>
+      <Col className='home-container' sm={{ span: 6  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}}>
           <Home />
        </Col>
-       <Col xs={12} md={10} lg={10} className="witness-container">
+       <Col sm={{ span: 6  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}} className="witness-container">
        <div className="broken-city-container">
       <div className="text1">
         <h1 className="broken-city-header">Knife In The Back</h1>

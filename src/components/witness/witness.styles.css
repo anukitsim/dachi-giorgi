@@ -1,14 +1,10 @@
 .witness-container {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
- 
-}
-
-.witness-texts {
-  margin-top: 10.7rem;
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
+  padding-top: 10.5rem;
+  z-index: 1;
+  margin-left: 4rem;
 }
 
 .witness-text1 {
@@ -22,19 +18,24 @@
 .witness-text2 {
   font-size: 0.938rem;
   font-weight: normal;
-  line-height: 1.5;
+  align-items: flex-start;
   color: #646060;
-  text-align: flex-start;
+  text-align: start;
 }
 
-.video-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  /* 16:9 */
 }
 
-
+.witness-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .video-caption {
   margin-left: auto;
@@ -44,169 +45,9 @@
   margin-bottom: 0.1rem;
 }
 
-
-
 .video-caption2 {
   margin-left: auto;
   font-size: 0.875rem;
   font-weight: normal;
   color: #646060;
-}
-
-@media (max-width: 767px) {
-  .witness-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-   
-  }
-  
-  .witness-texts {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .witness-text1 {
-    font-size: 0.938rem;
-    font-weight: normal;
-    align-items: start;
-    color: #646060;
-    text-align: start;
-  }
-  
-  .witness-text2 {
-    font-size: 0.938rem;
-    font-weight: normal;
-    line-height: 1.5;
-    color: #646060;
-    text-align: start;
-  }
-  
-  .video-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-   
-  }
-  
-
-  .witness-video{
-    margin-top: -50%;
-  }
-  
-  
-  .video-caption {
-    margin-top: -55%;
-    margin-left: auto;
-    font-size: 0.875rem;
-    font-weight: normal;
-    color: #646060;
-    margin-bottom: 0.1rem;
-  }
-  
-  .video-caption2 {
-    margin-left: auto;
-    font-size: 0.875rem;
-    font-weight: normal;
-    color: #646060;
-  }
-}
-
-@media (min-width: 1280px) and (max-width: 1366px){
-  .witness-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-   
-   
-  }
-
-  .witness-video{
-    margin-top: -5%;
-  }
-
-  .witness-texts {
-    margin-top: 10.7rem;
-    margin-left: 2rem;
-    display: flex;
-    flex-direction: column;
-  }
-  .video-caption {
-    margin-left: auto;
-    margin-top: -7%;
-    font-size: 0.875rem;
-    font-weight: normal;
-    color: #646060;
-    margin-bottom: 0.1rem;
-  }
-
-
-  
-  
-}
-
-@media (min-width: 1920px){
-
-
-  .witness-container {
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100vw;
-   margin-left: 10%;
-    
-  }
-  
-  .witness-texts {
-    margin-top: 16%;
-    display: flex;
-    flex-direction: column;
-    
-    
-  }
-  
-  .witness-text1 {
-    font-size: 0.938rem;
-    font-weight: normal;
-    align-items: start;
-    color: #646060;
-    text-align: start;
-
-  }
-
-  .witness-text2 {
-    font-size: 0.938rem;
-    font-weight: normal;
-    line-height: 1.5;
-    color: #646060;
-    text-align: start;
-   
-  }
-  
-  .video-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-top: -100%;
-  }
-  
-  
-  
-  .video-caption {
-    margin-left: auto;
-    font-size: 0.875rem;
-    font-weight: normal;
-    color: #646060;
-    margin-bottom: 0.1rem;
-  }
-  
-  .video-caption2 {
-    margin-left: auto;
-    font-size: 0.875rem;
-    font-weight: normal;
-    color: #646060;
-  }
-  
 }

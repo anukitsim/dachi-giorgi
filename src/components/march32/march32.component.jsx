@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const March32 = () => {
     return (
-        <Container>
+        <Container fluid>
         <Row>
           <Col xs={12} md={2} lg={2} className='home-container'>
             <Home />
