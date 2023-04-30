@@ -174,11 +174,13 @@ li {
 
   
     .home-container {
+      
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
       gap: 0.5rem; /* Adds spacing between child elements */
+      margin-left: -1rem;
       
     }
     
@@ -199,7 +201,8 @@ li {
       font-weight: normal;
       font-family: "M PLUS 1", sans-serif;
       display: block;
-      margin-left: 1rem;
+      margin-left: 1.5rem;
+      margin-top: 1rem;
       background-color: transparent; 
       border: none; 
       color: #646060; 
@@ -231,6 +234,11 @@ li {
       list-style: none; 
       
       }
-  }
+
+   
+
+    
+
+    }
 
  

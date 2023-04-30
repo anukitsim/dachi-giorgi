@@ -7,10 +7,10 @@ const Witness = () => {
   return (
     <Container fluid>
       <Row>
-        <Col className='home-container' sm={{ span: 6  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}}>
+        <Col className='home-container' sm={{ span: 12  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}}>
           <Home />
         </Col>
-        <Col className="witness-container" sm={{ span: 6  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}}>
+        <Col className="witness-container" sm={{ span: 12  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}}>
           <p className="witness-text1">
             The Louvre has invited twenty young creative figures to present their
             take on the museum in the form of a 3:30 min film. The “Louvre Looks”

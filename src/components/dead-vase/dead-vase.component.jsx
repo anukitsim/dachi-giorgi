@@ -32,7 +32,7 @@ const DeadVase = () => {
           <img src={vase2} alt="vase2" className="vase-img2" />
         </div>
         <div className="vase3-container">
-          <img src={vase3} alt="vase2" className="vase-img3" />
+          <img src={vase3} alt="vase3" className="vase-img3" />
         </div>
         <div className="vase-text2-container">
           <p className="vase-text2">

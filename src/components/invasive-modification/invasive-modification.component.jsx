@@ -34,7 +34,8 @@ const InvasiveModification = () => {
     cardImage9,
   ];
 
-  const handleClick = (index) => {
+  const handleClick = (index, event) => {
+    event.preventDefault();
     setCurrentImage(images[index]);
     setActiveIndex(index);
   };
@@ -42,71 +43,72 @@ const InvasiveModification = () => {
   return (
     <Container fluid>
       <Row>
-      <Col className="home-container" xs={12} md={6} lg={2} xxl={2}>
+        <Col className="home-container" xs={12} md={6} lg={2} xxl={2}>
           <Home />
         </Col>
-        <Col  className="invasiveModification-container d-flex 
-         " xs={12} md={6} lg={10} xxl={10}>
-       
+        <Col
+          className="invasiveModification-container d-flex 
+         "
+          xs={12}
+          md={6}
+          lg={10}
+          xxl={10}
+        >
           <div className="div1">
-          <h2 className="invasiveModification-header">
-            Set Design for the Georgian footwear brand Invasive Modifications
-          </h2>
-          <img src={img1} alt="img1" className="img1" />
+            <h2 className="invasiveModification-header">
+              Set Design for the Georgian footwear brand Invasive Modifications
+            </h2>
+            <img src={img1} alt="img1" className="img1" />
           </div>
           <div className="div2">
-          <h2 className="video-text">
-            Translating language at the core of brands world through artefacts
-            within the current realm
-          </h2>
-          <ReactPlayer
-            ref={playerRef}
-            url="https://vimeo.com/818864881"
-            className="invasiveModification-video"
-            controls={false}
-            volume={0}
-            playing={isPlaying}
-            loop={true}
-            width='100%'
-            height='50vh'
-         
-           
-          />
+            <h2 className="video-text">
+              Translating language at the core of brands world through artefacts
+              within the current realm
+            </h2>
+            <ReactPlayer
+              ref={playerRef}
+              url="https://vimeo.com/818864881"
+              className="invasiveModification-video"
+              controls={false}
+              volume={0}
+              playing={isPlaying}
+              loop={true}
+              width="100%"
+              height="50vh"
+            />
           </div>
           <div className="div3">
-          <img
-            src={currentImage}
-            alt="img1"
-            className="card-images"
-            onClick={() =>
-              handleClick(
-                activeIndex === images.length - 1 ? 0 : activeIndex + 1
-              )
-            }
-            onTouchStart={() =>
+            <img
+              src={currentImage}
+              alt="img1"
+              className="card-images"
+              onClick={(event) =>
                 handleClick(
-                  activeIndex === images.length - 1 ? 0 : activeIndex + 1
+                  activeIndex === images.length - 1 ? 0 : activeIndex + 1,
+                  event
                 )
               }
+              onTouchStart={(event) =>
+                handleClick(
+                  activeIndex === images.length - 1 ? 0 : activeIndex + 1,
+                  event
+                )
+              }
+            />
 
-          />
-          <div className="div4">
-          <p>Photography:</p>
-          <p>Giorgi Nakashidze</p>
-          <p>Ika Khargelia</p>
-          <p>Luka Pantskhava</p>
-          <br />
-          <p>Prop Assistant:</p>
-          <p>Polina Zhuravkova</p>
-          <br />
-          <p>Invasive Modification:</p>
-          <p>Nicolas Grigorian</p>
-          <p>Nina Ivanovna</p>
-          </div>
-         
-         
-        
-      
+            <div className="div4">
+              <p>Photography:</p>
+              <p>Giorgi Nakashidze</p>
+              <p>Ika Khargelia</p>
+              <p>Luka Pantskhava</p>
+              <br />
+              <p>Prop Assistant:</p>
+              <p>Polina Zhuravkova</p>
+              <br />
+              <p>Invasive Modification:</p>
+              <p>Nicolas Grigorian</p>
+              <p>Nina Ivanovna</p>
+            </div>
           </div>
           <div className="carousel-bullets">
             {images.map((image, index) => (
@@ -119,11 +121,6 @@ const InvasiveModification = () => {
               />
             ))}
           </div>
-     
-
-
-      
-        
         </Col>
       </Row>
     </Container>

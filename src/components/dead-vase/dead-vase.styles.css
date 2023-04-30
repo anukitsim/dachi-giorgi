@@ -62,3 +62,46 @@
     
 }
 
+@media only screen and (max-width: 767px) {
+    
+    .vase1-container {
+        
+      width: 100%;
+    }
+    .vase-text1 {
+      margin-left: 0;
+      margin-top: 0;
+    }
+    .vase2-container {
+      margin-left: 0;
+      margin-top: 0;
+    }
+    .vase3-container {
+      margin-left: 0;
+      margin-top: 0.5rem;
+      width: 100%;
+     
+      
+      
+      
+     
+    }
+
+  
+    .vase-text2 {
+      width: 100%;
+margin-bottom: 2rem;
+      
+    }
+
+    .vase-text2-container{
+        margin-top: 20rem;
+    }
+   
+
+  
+
+    
+
+  }
+  

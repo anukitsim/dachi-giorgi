@@ -7,10 +7,10 @@ const Hyphen = () => {
     return (
         <Container fluid>
       <Row>
-      <Col className='home-container' xs={{ span: 1 }} sm={{ span: 12 }}  md={{ span: 6  }} lg={{span: 2 }} xl={{span: 2}} >
+      <Col className='home-container' xs={{ span: 12 }} sm={{ span: 12 }}  md={{ span: 6  }} lg={{span: 2 }} xl={{span: 2}} >
           <Home />
        </Col>
-       <Col className="hyphen-container" xs={{ span: 10 }} sm={{ span: 12 }} md={{ span:6 }} lg={{span: 8 }} xl={{span: 8}}>
+       <Col className="hyphen-container" xs={{ span: 12 }} sm={{ span: 12 }} md={{ span:6 }} lg={{span: 8 }} xl={{span: 8}}>
        <img className="hyphen-img" src={hyphenImg} alt="hyphen-img" />
        </Col>
        </Row>

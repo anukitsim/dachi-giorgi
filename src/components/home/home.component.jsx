@@ -93,14 +93,15 @@
         )}
         
             <div className={isMobileMenuVisible ? 'mobile-menu visible' : 'mobile-menu'}>
-              <button className="menu-button" onClick={toggleMobileMenu}>
-                Menu
-              </button>
+              
               <h1 className="title">
               <Link to="/" className="title-link">
                 DACHI-GIORGI GARUCHAVA
               </Link>
             </h1>
+            <button className="menu-button" onClick={toggleMobileMenu}>
+                Menu
+              </button>
               <ul className={isMobileMenuVisible ? 'info-links show' : 'info-links'}>
               
           
