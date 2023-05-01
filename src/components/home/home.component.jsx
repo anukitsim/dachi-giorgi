@@ -63,7 +63,7 @@
       <Container fluid>
 
         <Row>
-          <Col className='home-container' md={{ span: 4  }} lg={{span: 4 }} xl={{span: 4}} >
+          <Col className='home-container' sm={{ span: 12  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}} >
           {showBackground && (
           <div className="background-container">
             <video

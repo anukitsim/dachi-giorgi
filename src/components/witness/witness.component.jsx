@@ -7,7 +7,7 @@ const Witness = () => {
   return (
     <Container fluid>
       <Row>
-        <Col className='home-container' sm={{ span: 12  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}}>
+        <Col className='home-container' sm={{ span: 12  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}} style={{ paddingLeft: 0 }} >
           <Home />
         </Col>
         <Col className="witness-container" sm={{ span: 12  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}}>

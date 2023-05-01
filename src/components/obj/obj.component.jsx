@@ -13,7 +13,7 @@ const Obj = () => {
   return (
     <Container fluid>
       <Row>
-        <Col xs={12} md={6} lg={2} xxl={2} className="home-container">
+        <Col xs={12} md={6} lg={2} xxl={2} className="home-container" style={{ paddingLeft: 0 }}>
           <Home />
         </Col>
         <Col xs={12} md={6} lg={8} xxl={10} className="obj-container">

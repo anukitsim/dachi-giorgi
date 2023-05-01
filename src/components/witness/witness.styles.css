@@ -2,10 +2,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 10.5rem;
   z-index: 1;
   margin-left: 4rem;
 }
+
+
+
 
 .witness-text1 {
   font-size: 0.938rem;

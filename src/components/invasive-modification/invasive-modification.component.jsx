@@ -43,7 +43,7 @@ const InvasiveModification = () => {
   return (
     <Container fluid>
       <Row>
-        <Col className="home-container" xs={12} md={6} lg={2} xxl={2}>
+        <Col className="home-container" xs={12} md={6} lg={2} xxl={2} style={{ paddingLeft: 0 }}>
           <Home />
         </Col>
         <Col

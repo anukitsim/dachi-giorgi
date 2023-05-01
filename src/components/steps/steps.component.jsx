@@ -7,10 +7,10 @@ const Steps = () => {
   return (
     <Container fluid>
       <Row>
-        <Col className="home-container" xs={12} md={6} lg={2} xxl={2}>
+        <Col className="home-container" xs={12} md={6} lg={2} xxl={2} style={{ paddingLeft: 0 }}>
           <Home />
         </Col>
-        <Col className="steps-container d-flex flex-column justify-content-end" xs={12} md={6} lg={9} xxl={9}>
+        <Col className="steps-container d-flex flex-column justify-content-end" xs={12} md={6} lg={9} xxl={9} >
           <div className="video-wrapper">
             <ReactPlayer
               url="https://vimeo.com/818803846"
