@@ -9,10 +9,10 @@ const DeadVase = () => {
     return (
         <Container fluid>
       <Row>
-      <Col className='home-container' sm={{ span: 6  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}}>
+      <Col className='home-container' sm={{ span: 12  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}}>
           <Home />
        </Col>
-       <Col sm={{ span: 6  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}} className="witness-container">
+       <Col sm={{ span: 12  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}} >
      <div className="vase-container">
       <div className="vase1-container">
         <img src={vase1} alt="vase1" className="vase-img1" />
