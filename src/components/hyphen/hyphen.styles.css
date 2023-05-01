@@ -1,7 +1,6 @@
-
-.hyphen-container{
-    pointer-events: none;
-    display: flex;
+.hyphen-container {
+  pointer-events: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   width: 800px;
@@ -9,16 +8,13 @@
   margin-left: 4rem;
 }
 
-@media (max-width: 767px){
-  .hyphen-container{
-    
+@media (max-width: 767px) {
+  .hyphen-container {
     display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  z-index: 1;
-  margin: 0;
-  max-width: 100%;
-}
-
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    z-index: 1;
+    margin: 0;
+  }
 }

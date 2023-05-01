@@ -172,7 +172,7 @@ flex-direction: row;
   .carousel-bullets {
     position: absolute;
     top: 81%;
-    left: 67%;
+    left: 71%;
     transform: translateX(-50%);
     display: flex;
     flex-direction: row;
