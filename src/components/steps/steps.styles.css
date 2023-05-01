@@ -52,6 +52,15 @@ font-weight: normal;
     color: #646060;
 }
 
+@media screen and (max-width: 767px){
+  .steps-container {
+    flex-direction: column;
+    padding-top: 10.5rem;
+    margin-left: -18%;
+    
+  
+  }
+}
 
 
   

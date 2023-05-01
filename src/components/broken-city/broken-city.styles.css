@@ -1,208 +1,146 @@
+.broken-container{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: auto;
+  padding-top: 8rem;
+  margin: 2rem;
+}
 
+.broken-div1{
+  width: 100%;
+  height: 50%;
  
- .text1{
-     color: #484848;
-     font-weight: normal;
-     display: flex;
-     flex-direction: column;
-     width:85%;
-     
- }
+}
+
+.broken-div2{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
  
- .broken-city-header{
-     color: #484848;
-     font-weight: normal;
-     font-size: 1.25rem;
-     
-     
- }
+  
+  
+}
+
+.broken-div-part1{
+width: 50%;
+text-align: right;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+
+.broken-div-part2{
+  width: 50%;
+}
+
+.broken-div3{
+  width: 100%;
+  height: 100%;
+  margin-top: -5%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+.brokenimg1{
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.broken-city-header{
+  color: #484848;
+  font-weight: normal;
+  font-size: 1.25rem;
+  padding-bottom: 1.5rem;
+}
+
+.text1-subtext{
+  color: #484848;
+  font-weight: normal;
+  font-size: 1rem;
+  
+}
+
+.brokenimg3{
+  width: 100%;
+}
+
+.broken-city-header2{
+  color: #484848;
+  font-weight: normal;
+  font-size: 1.25rem;
  
- .text1-subtext{
-     color: #484848;
+}
+
+.text2-subtext{
+  color: #484848;
      font-weight: normal;
      font-size: 1rem;
-     margin-bottom: 4%;
-     width: 120%;
-     margin-top: 2%;
- }
- 
+   
+}
 
- 
- .brokenimg1{
-     width: 100%;
-    
- }
- 
- .text2 {
+.brokenimg2{
+  width: 100%;
+  margin-top: -20%;
+}
+
+.image2-div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.brojenimg4{
+  width: 100%;
+}
+
+.broken-city-header3{
+  color: #484848;
+  font-weight: normal;
+  font-size: 1.25rem;
+}
+
+.text3-subtext{
+  color: #484848;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 767px){
+  .broken-container{
     display: flex;
     flex-direction: column;
-    width: 40%;
-    justify-content: space-between;
-    align-items: center;
-    text-align: right;
-
+    gap: 3rem;
+    height: auto;
+    padding-top: 8rem;
+  margin-left: 0;
   }
- 
- .broken-city-header2{
-     color: #484848;
-     font-weight: normal;
-     font-size: 1.25rem;
-    margin-top: 10%;
-    margin-left: 35%;
-     width: 100%;
-     margin-bottom: 5%;
-    
-     
- }
 
- .text2-subtext{
-    color: #484848;
-     font-weight: normal;
-     font-size: 1rem;
-     width: 125%;
-     text-align: right;
-     margin-left: 10%;
+  .broken-div2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
    
- }
- 
- .brokenimg3 {
-    width: 120%;
-    margin-left: 280%;
-    margin-top: -50%;
-   
+    
     
   }
- 
-  .brokenimg2 {
-    margin-top: -85%;
-    width: 150%;
-  
-  }
- 
- .text3{
-     display: flex;
-     flex-direction: column;
-    
-     text-align: left;
-    
-    
-     
-     
- }
- 
- .broken-city-header3{
-     color: #484848;
-     font-weight: normal;
-     font-size: 1.25rem;
-     margin-left: -5%;
-     margin-top: -20%;
-     white-space: nowrap;
-     
- }
- 
- .text3-subtext{
-     color: #484848;
-     font-weight: normal;
-     font-size: 1rem;
-     margin-top: 3%;
-     width: 100%;
-     margin-left: -5%;
-     
- }
- 
- .bottom-img-container{
-     width: 100%;
- }
- 
- .brojenimg4{
-     width: 100%;
-     margin-left: -5%;
- }
- 
- 
- @media screen and (max-width: 768px) {
-     .broken-city-container {
-      width: 100%;
-      overflow-x: hidden;
-     }
-   
-     .text1 {
-       margin-left: 0;
-       width: 100%;
-      
-     }
-   
-     .broken-city-header {
-       font-size: 1.5rem;
-       
-     }
-   
-     .text1-subtext {
-       width: 100%;
-       
-       font-size: 0.9rem;
-     }
-   
-     .brokenimg1 {
-       width: 100%;
-       
-     }
-   
-     .text2 {
-       width: 100%;
-      
-       
-       text-align: left;
-     }
-   
-     .broken-city-header2 {
-      margin-left: 1%;
-     }
 
-     .text2-subtext{
-        margin-left: -4%;
-        width: 90%;
-        text-align: left;
-        margin-bottom: -50%;
-        
-     }
-   
-     .brokenimg3 {
-       position: static;
-       width: 100%;
-       margin-left: 0;
-       margin-top: 70%;
-       margin-bottom: -40%;
-       
-     }
-   
-     .brokenimg2 {
-       position: static;
-       width: 100%;
-       margin-top: 40%;
-       
-      
-     }
-   
-     .text3 {
-       width: 70%;
-     }
-   
-     .broken-city-header3 {
-       font-size: 1.5rem;
-       margin-left: 10%;
-     }
-   
-     .text3-subtext {
-       font-size: 0.9rem;
-       margin-left: 10%;
-       width: 100%;
-     }
-   
-     .brojenimg4 {
-       width: 100%;
-      margin-left: 2%;
-     }
-   }
-
-   
+  .broken-div-part1{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    }
+    .brokenimg3{
+      width: 180%;
+      margin-top: -50%;
+    }
+    
+}

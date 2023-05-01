@@ -12,30 +12,10 @@ const DeadVase = () => {
       <Col className='home-container' sm={{ span: 12  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}} style={{ paddingLeft: 0 }}>
           <Home />
        </Col>
-       <Col sm={{ span: 12  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}} >
-     <div className="vase-container">
-      <div className="vase1-container">
-        <img src={vase1} alt="vase1" className="vase-img1" />
-        <div className="vase-text1-container">
-          <p className="vase-text1">
-            Voronoi structures are geometric patterns that occur naturally in
-            various systems, such as the distribution of cells in plant tissues,
-            the shape of soap bubbles, and the arrangement of particles in a
-            crystal lattice. Voronoi structures are characterised by a set of
-            points in a space, known as seeds or generators, which partition the
-            space into regions, called Voronoi cells, such that each cell
-            contains all the points that are closer to its own generator than to
-            any other.
-          </p>
-        </div>
-        <div className="vase2-container">
-          <img src={vase2} alt="vase2" className="vase-img2" />
-        </div>
-        <div className="vase3-container">
-          <img src={vase3} alt="vase3" className="vase-img3" />
-        </div>
-        <div className="vase-text2-container">
-          <p className="vase-text2">
+       <Col className="vase-container" sm={{ span: 12  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}} >
+     <div className="dead-vase-div1">
+     <img src={vase1} alt="vase1" className="vase-img1" />
+     <p className="vase-text1">
             The structures whole ideology is in connection with dead cells
             finding the structure in nature in the form of dried ground, turtle
             shell, a wall and many more items of every day. Vase was created
@@ -44,10 +24,21 @@ const DeadVase = () => {
             printing parts and combining them together by hand, with 3D resin
             and Uv light in hand.
           </p>
-        </div>
-      </div>
-    </div>
-      
+     </div>
+     <div className="dead-vase-div2">
+     <p className="vase-text2">
+     Voronoi structures are geometric patterns that occur naturally in
+            various systems, such as the distribution of cells in plant tissues,
+            the shape of soap bubbles, and the arrangement of particles in a
+            crystal lattice. Voronoi structures are characterised by a set of
+            points in a space, known as seeds or generators, which partition the
+            space into regions, called Voronoi cells, such that each cell
+            contains all the points that are closer to its own generator than to
+            any other.
+          </p>
+          <img src={vase2} alt="vase2" className="vase-img2" />
+          <img src={vase3} alt="vase2" className="vase-img3" />
+     </div>
         </Col>
       </Row>
     </Container>

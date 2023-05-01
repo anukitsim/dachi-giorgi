@@ -13,10 +13,9 @@ const BrokenCity = () => {
       <Col className='home-container' sm={{ span: 6  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}} style={{ paddingLeft: 0 }}>
           <Home />
        </Col>
-       <Col sm={{ span: 6  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}} className="witness-container">
-       <div className="broken-city-container">
-      <div className="text1">
-        <h1 className="broken-city-header">Knife In The Back</h1>
+       <Col sm={{ span: 6  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}} className="broken-container">
+          <div className="broken-div1">
+          <h1 className="broken-city-header">Knife In The Back</h1>
         <p className="text1-subtext">
           Objects built from the parts found in the ruins of my childhood house
           a collapsed building in my hometown of Batumi. The catastrophical fail
@@ -25,14 +24,15 @@ const BrokenCity = () => {
           in the wreckage. This incident was caused by the ceaselessness of a
           construction worker and their boss.
         </p>
-      </div>
-      <div className="brokenimg1-container">
         <img src={brokenImg1} alt="brokenimg1" className="brokenimg1" />
-      </div>
-      <div className="text2">
-        <h1 className="broken-city-header2">
+
+          </div>
+          <div className="broken-div2">
+         <div className="broken-div-part1">
+         <h1 className="broken-city-header2">
           Good Building Leave Beautiful Ruins
         </h1>
+        <div className="image2-div">
         <p className="text2-subtext">
           The modern jungle is teeming with signs of life, from broken apartment
           buildings to bridges and fountains. Personally, I believe that
@@ -45,11 +45,19 @@ const BrokenCity = () => {
           modelled with calculations of a fungi growth to blend with the ruin,
           filled with moss spores and chia seeds
         </p>
-        <img src={brokenImg3} alt="brojenimg3" className="brokenimg3" />
         <img src={brokenImg2} alt="brojenimg2" className="brokenimg2" />
-      </div>
-      <div className="text3">
-        <h1 className="broken-city-header3">Barbed Wirek</h1>
+        </div>
+        
+         </div>
+         <div className="broken-div-part2">
+         <img src={brokenImg3} alt="brojenimg3" className="brokenimg3" />
+         </div>
+       
+       
+          
+          </div>
+          <div className="broken-div3">
+          <h1 className="broken-city-header3">Barbed Wirek</h1>
         <p className="text3-subtext">
           Quote of the Georgian people "20% of my land is occupied by Russia"
           was initially the truth, but slowly we realised that 20% is only the
@@ -67,11 +75,8 @@ const BrokenCity = () => {
           through the metal and slowly rusts it away, this process will not stop
           in Georgia until the whole chair colapses.
         </p>
-      </div>
-      <div className="bottom-img-container">
         <img src={brokenImg4} alt="brojenimg4" className="brojenimg4" />
-      </div>
-    </div>
+          </div>
         </Col>
       </Row>
     </Container>

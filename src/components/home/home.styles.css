@@ -189,7 +189,7 @@ li {
       justify-content: flex-start;
       align-items: flex-start;
       gap: 0.5rem; /* Adds spacing between child elements */
-      margin-left: -1rem;
+      margin-left: -3rem;
       
     }
     
@@ -203,6 +203,7 @@ li {
       font-size: 1.25rem;
       font-weight: normal;
       white-space: nowrap;
+      margin-left: 2rem;
     }
     
       .menu-button {
@@ -210,7 +211,7 @@ li {
       font-weight: normal;
       font-family: "M PLUS 1", sans-serif;
       display: block;
-      margin-left: 1.5rem;
+      margin-left: 2rem;
       margin-top: 1rem;
       background-color: transparent; 
       border: none; 
