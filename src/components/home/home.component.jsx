@@ -74,6 +74,7 @@
           autoPlay
           loop
           muted
+          playsinline
         />
         <img
         className='background-img'
