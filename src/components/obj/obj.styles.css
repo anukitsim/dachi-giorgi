@@ -25,12 +25,12 @@
 .obj-text{
     width: 50%;
     height: 50%;
-    margin-top: 6%;
+    margin-top: 10%;
     margin-left: -10%;
 }
 
 .obj-img2{
-    width: 150%;
+    width: 170%;
     margin-left: -5%;
     margin-top: -5%;
     
@@ -40,7 +40,7 @@
     color: #484848;
     font-weight: normal;
     font-size: 1.25rem;
-   margin-left: 24%;
+   margin-left: 27%;
    margin-bottom: -15%;
     
     
@@ -58,6 +58,7 @@
     width: 100%;
     margin-left: -11%;
     margin-top: -12%;
+    margin-bottom: 1rem;
 }
 
 .obj-img3-header{
@@ -71,12 +72,14 @@
     color: #484848;
     font-weight: normal;
     font-size: 1rem;
+    font-family: 'M PLUS 1', sans-serif;
 }
 
 .obj-text3-part2{
     color: #484848;
     font-weight: normal;
     font-size: 1rem;
+    font-family: 'M PLUS 1', sans-serif;
 }
 
 .obj-img4{
@@ -87,10 +90,10 @@
 }
 
 .obj-img5{
-    width: 60%;
+    width: 90%;
     position:absolute;
     top: 55%;
-    left: 60%;
+    left: 47%;
 }
 
 @media (max-width: 767px){
@@ -150,7 +153,7 @@ margin-top: 10%;
     }
     .obj-img4{
         width: 100%;
-        margin-top: 300%;
+        margin-top: 320%;
         
     }
     

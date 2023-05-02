@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 3rem;
   height: auto;
-  padding-top: 8rem;
+  padding-top: 10rem;
   margin: 2rem;
 }
 
@@ -55,6 +55,7 @@ gap: 2rem;
   color: #484848;
   font-weight: normal;
   font-size: 1.25rem;
+  font-family: 'M PLUS 1', sans-serif;
   padding-bottom: 1.5rem;
 }
 
@@ -62,6 +63,7 @@ gap: 2rem;
   color: #484848;
   font-weight: normal;
   font-size: 1rem;
+  font-family: 'M PLUS 1', sans-serif;
   
 }
 
@@ -73,6 +75,7 @@ gap: 2rem;
   color: #484848;
   font-weight: normal;
   font-size: 1.25rem;
+  font-family: 'M PLUS 1', sans-serif;
  
 }
 
@@ -80,6 +83,7 @@ gap: 2rem;
   color: #484848;
      font-weight: normal;
      font-size: 1rem;
+     font-family: 'M PLUS 1', sans-serif;
    
 }
 
@@ -102,12 +106,14 @@ gap: 2rem;
   color: #484848;
   font-weight: normal;
   font-size: 1.25rem;
+  font-family: 'M PLUS 1', sans-serif;
 }
 
 .text3-subtext{
   color: #484848;
   font-weight: normal;
   font-size: 1rem;
+  font-family: 'M PLUS 1', sans-serif;
 }
 
 @media screen and (max-width: 767px){

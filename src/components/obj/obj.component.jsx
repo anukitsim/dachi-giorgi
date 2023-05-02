@@ -16,14 +16,14 @@ const Obj = () => {
         <Col xs={12} md={6} lg={2} xxl={2} className="home-container" style={{ paddingLeft: 0 }}>
           <Home />
         </Col>
-        <Col xs={12} md={6} lg={8} xxl={8} className="obj-container">
+        <Col xs={12} md={6} lg={8} xxl={9} className="obj-container">
 
          <div className="obj-div1">
          <img src={objImg1} alt="obj-img-1" className="obj-img1" />
          <img src={objText} alt="obj-text" className="obj-text" />
          <div className="obj-img2-div">
          <h2 className="obj-img2-header">Roots.obj</h2>
-        <img src={objImg2} alt="obj-img-1" className="obj-img2" />
+        <img src={objImg2} alt="obj-img-2" className="obj-img2" />
          </div>
         
          </div>
