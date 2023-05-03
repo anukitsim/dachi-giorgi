@@ -13,7 +13,7 @@ const BrokenCity = () => {
       <Col className='home-container' sm={{ span: 6  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}} style={{ paddingLeft: 0 }}>
           <Home />
        </Col>
-       <Col sm={{ span: 6  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}} className="broken-container">
+       <Col sm={{ span: 6  }} md={{ span:6  }} lg={{span: 9 }} xl={{span: 9}} className="broken-container">
           <div className="broken-div1">
           <h1 className="broken-city-header">Knife In The Back</h1>
         <p className="text1-subtext">
@@ -25,36 +25,10 @@ const BrokenCity = () => {
           construction worker and their boss.
         </p>
         <img src={brokenImg1} alt="brokenimg1" className="brokenimg1" />
-
           </div>
           <div className="broken-div2">
-         <div className="broken-div-part1">
-         <h1 className="broken-city-header2">
-          Good Building Leave Beautiful Ruins
-        </h1>
-        <div className="image2-div">
-        <p className="text2-subtext">
-          The modern jungle is teeming with signs of life, from broken apartment
-          buildings to bridges and fountains. Personally, I believe that
-          preserving old buildings is crucial to our culture. In the ruins of
-          the city, one can glean more insight than from a new constitution.
-          Therefore, it’s essential to find a way to combine old and new
-          structures in a symbiotic merger, much like new skyscrapers standing
-          alongside historic buildings in cities. By finding cracks in the
-          public areas and filling the with forms made from recycled plastic,
-          modelled with calculations of a fungi growth to blend with the ruin,
-          filled with moss spores and chia seeds
-        </p>
-        <img src={brokenImg2} alt="brojenimg2" className="brokenimg2" />
-        </div>
-        
-         </div>
-         <div className="broken-div-part2">
-         <img src={brokenImg3} alt="brojenimg3" className="brokenimg3" />
-         </div>
-       
-       
-          
+          <img src={brokenImg2} alt="brojenimg2" className="brokenimg2" />
+          <img src={brokenImg3} alt="brojenimg3" className="brokenimg3" />
           </div>
           <div className="broken-div3">
           <h1 className="broken-city-header3">Barbed Wirek</h1>
@@ -75,7 +49,7 @@ const BrokenCity = () => {
           through the metal and slowly rusts it away, this process will not stop
           in Georgia until the whole chair colapses.
         </p>
-        <img src={brokenImg4} alt="brojenimg4" className="brojenimg4" />
+        <img src={brokenImg4} alt="brokenimg4" className="brokenimg4" />
           </div>
         </Col>
       </Row>

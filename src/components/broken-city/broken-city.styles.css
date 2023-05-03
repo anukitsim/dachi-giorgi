@@ -1,54 +1,12 @@
 .broken-container{
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-  height: auto;
-  padding-top: 8rem;
-  margin: 2rem;
-}
-
-.broken-div1{
-  width: 100%;
-  height: 50%;
- 
-}
-
-.broken-div2{
-  width: 100%;
-  height: 70%;
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  position: relative;
- 
-  
-  
-}
-
-.broken-div-part1{
-width: 50%;
-text-align: right;
-display: flex;
-flex-direction: column;
-gap: 2rem;
-}
-
-.broken-div-part2{
-  width: 50%;
-}
-
-.broken-div3{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-
+ padding-top: 10rem;
+ margin-left: 2%;
 }
 
 .brokenimg1{
   width: 100%;
-  padding-top: 1rem;
 }
 
 .broken-city-header{
@@ -62,47 +20,40 @@ gap: 2rem;
 .text1-subtext{
   color: #484848;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-family: 'M PLUS 1', sans-serif;
   
 }
 
-.brokenimg3{
-  width: 100%;
- 
-  margin-top: -2.5rem;
-}
-
-.broken-city-header2{
-  color: #484848;
-  font-weight: normal;
-  font-size: 1.25rem;
-  font-family: 'M PLUS 1', sans-serif;
- 
-}
-
-.text2-subtext{
-  color: #484848;
-     font-weight: normal;
-     font-size: 1rem;
-     font-family: 'M PLUS 1', sans-serif;
-   
+.broken-div2{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .brokenimg2{
-width: 60%;
-top: 18%;
-left: -7%;
-  position: absolute
+  width: 50%;
+  margin-top: 3%;
+  margin-left: -2%;
+  
 }
 
-.image2-div{
+.brokenimg3{
+  width: 60%;
+  height: 70%;
+  margin-left: -4%;
+  
+}
+
+.broken-div3{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  margin-top: -10%;
 }
 
-.brojenimg4{
+.brokenimg4{
   width: 100%;
 }
 
@@ -116,41 +67,41 @@ left: -7%;
 .text3-subtext{
   color: #484848;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-family: 'M PLUS 1', sans-serif;
 }
 
 @media screen and (max-width: 767px){
-  .broken-container{
+ 
+  .broken-div2{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
-    height: auto;
-    padding-top: 8rem;
-  margin-left: 0;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  .brokenimg2{
+    width: 100%;
+    margin-top: 3%;
+   margin-left: 7%;
+    
   }
 
-  .broken-div2{
+  .brokenimg3{
     width: 100%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+   margin-top: -35%;
+   
    
     
-    
   }
 
-  .broken-div-part1{
-    width: 100%;
-    text-align: left;
+  .broken-div3{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    }
-    .brokenimg3{
-      width: 180%;
-      margin-top: -50%;
-    }
-    
+  margin-top: 5%;
+  }
+
+  .brokenimg4{
+    width: 100%;
+  }
 }
