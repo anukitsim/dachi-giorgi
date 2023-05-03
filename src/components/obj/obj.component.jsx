@@ -32,7 +32,7 @@ const Obj = () => {
       
         </Col>
         <Row>
-          <Col xs={12} md={6} lg={8} 	xl={6} xxl={6} className="obj-container2">
+          <Col xs={12} md={6} lg={6} xl={6} xxl={6} className="obj-container2">
             <div className="obj-div3">
             <h2 className="obj-img3-header">Flask.obj</h2>
       <img src={objImg3} alt="obg-img-3" className="obj-img3" />

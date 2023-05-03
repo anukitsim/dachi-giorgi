@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     pointer-events: none;
+    
 }
 
 .obj-div1{
@@ -21,15 +22,15 @@
     width: 60%;
     height: 50%;
     position: absolute;
-    left: 90%;
-    top: 32%;
+    left: 80%;
+    top: 35%;
 }
 
 .obj-img1{
-    width: 150%;
+    width: 180%;
     position: absolute;
     top: 10%;
-    left: -30%;
+    left: -40%;
 }
 
 .obj-text{
@@ -38,6 +39,7 @@
 
 .obj-img2{
     width: 150%;
+    margin-left: -20%;
 }
 
 .obj-img2-header{
@@ -46,7 +48,7 @@
     font-size: 1.25rem;
     font-family: 'M PLUS 1', sans-serif;
   position: absolute;
-  left: 28%;
+  left: 20%;
   top: 7%;
     
     
@@ -60,7 +62,7 @@
 
 .obj-div3{
 margin-left: 10%;
-    width: 120%;
+    width: 150%;
     margin-top: -5%;
 }
 
@@ -70,29 +72,29 @@ margin-left: 10%;
 }
 
 .obj-img3{
-    width: 70%;
-    margin-top: -7%;
+    width: 100%;
+    margin-top: -12%;
 }
 
 .obj-div5{
-    width: 150%;
+    width: 100%;
     height: 100%;
     position: absolute;
-    top: -20%;
-    left: -20%;
+   
 }
 
 .obj-img4{
-    width: 150%;
-    margin-left: 20%;
+    width: 200%;
+    margin-left: 10%;
+    margin-top: -40%;
     
     
 }
 
 .obj-img5{
-width: 300%;
-margin-top: -210%;
-margin-left: 80%;
+width: 450%;
+margin-top: -280%;
+margin-left: 85%;
 }
 
 .obj-img3-header{
@@ -100,7 +102,8 @@ margin-left: 80%;
     font-weight: normal;
     font-size: 1.25rem;
     font-family: 'M PLUS 1', sans-serif;
-    margin-left: 8%;
+    margin-left: 12%;
+    
     
 }
 
@@ -110,7 +113,7 @@ margin-left: 80%;
     font-size: 1rem;
     font-family: 'M PLUS 1', sans-serif;
     width: 90%;
-    margin-left: 8%;
+    margin-left: 11.5%;
     margin-top: 2%;
 }
 
@@ -120,5 +123,5 @@ margin-left: 80%;
     font-size: 1rem;
     font-family: 'M PLUS 1', sans-serif;
     width: 90%;
-    margin-left: 8%;
+    margin-left: 11.5%;
 }
