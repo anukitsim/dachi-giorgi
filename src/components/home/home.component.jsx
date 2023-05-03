@@ -5,12 +5,21 @@
   import backgroundVideo from '../../video/background-video.mp4';
   import backgroundImg from '../../imgs/background-img.png';
   import march32Background from '../../imgs/march32.png';
+  import gif from '../../gif/gif.mp4';
+
+
 
   const Home = () => {
     const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
     const [showBackground, setShowBackground] = useState(false);
     const [showMarch32Background, setShowMarch32Background] = useState(false);
+    
+
+    const [showGif, setShowGif] = useState(false);
+
+
     const location = useLocation();
+   
 
     const toggleMobileMenu = () => {
       setIsMobileMenuVisible(!isMobileMenuVisible);
@@ -54,10 +63,20 @@
       } else {
         body.classList.remove('broken-city-body');
       }
+
+      setShowGif(location.pathname === '/psr');
+
     
       setShowBackground(location.pathname === '/hyphen');
       setShowMarch32Background(location.pathname === '/march32');
+
+  
+
     }, [location.pathname]);
+
+    
+
+    
 
     return (
       <Container fluid>
@@ -91,7 +110,20 @@
           alt="background"
           style={{ position: 'absolute',  width: '100%', height: 'auto', objectFit: 'cover' }}
         />
+        
         )}
+       {showGif && (
+  <video
+    className='background-gif'
+    src={gif}
+    style={{ position: 'absolute', width: '100vw', height: 'auto', objectFit: 'cover' }}
+    autoPlay
+    loop
+    muted
+    playsInline
+  />
+)}
+
         
             <div className={isMobileMenuVisible ? 'mobile-menu visible' : 'mobile-menu'}>
               

@@ -4,28 +4,28 @@
   box-sizing: border-box;
 }
 
-.home-body{
-  background-color: #DBDBDBE2;
+.home-body {
+  background-color: #dbdbdbe2;
 }
 
-.thewitness-body{
-  background-color: #DBDBDBE2;
+.thewitness-body {
+  background-color: #dbdbdbe2;
 }
 
-.thesteps-body{
-  background-color: #DBDBDBE2;
+.thesteps-body {
+  background-color: #dbdbdbe2;
 }
 
-.obj-body{
-  background-color: #DBDBDBE2;
+.obj-body {
+  background-color: #dbdbdbe2;
 }
 
-.dead-vase-body{
-  background-color: #DBDBDBE2;
+.dead-vase-body {
+  background-color: #dbdbdbe2;
 }
 
-.broken-city-body{
-  background-color: #DBDBDBE2;
+.broken-city-body {
+  background-color: #dbdbdbe2;
 }
 
 .home-container {
@@ -33,24 +33,15 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 0.5rem; 
+  gap: 0.5rem;
   z-index: 0;
   max-width: 22.5rem;
   max-height: 31.25rem;
-
- 
-
- 
- 
-
- 
 }
 
-.invasive-modification-body{
+.invasive-modification-body {
   background-color: #080808;
 }
-
-
 
 .background-container {
   position: fixed;
@@ -69,13 +60,26 @@
   width: 100vw;
   height: 100vh;
   object-fit: cover;
+  z-index: -1;
+}
+
+.background-gif {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  margin-top: -40%;
+  
 }
 
 .background-img {
   opacity: 0.5;
 }
 
-.march-background-img{
+.march-background-img {
   position: fixed;
   top: 0;
   left: 0;
@@ -83,11 +87,6 @@
   width: 100vw;
   height: 100vh;
 }
-
-
-
-
-
 
 .title {
   margin-left: 1.7rem;
@@ -103,9 +102,6 @@
   color: #afafaf;
   font-size: 1.25rem;
   font-family: "M PLUS 1", sans-serif;
-  
-  
- 
 }
 
 .info-links:hover {
@@ -117,10 +113,7 @@
   color: #afafaf;
   text-decoration: none;
   line-height: 1.6rem;
-  
 }
-
-
 
 .title-link {
   color: #646060;
@@ -134,8 +127,8 @@
 }
 
 ul {
- margin: 0;
- padding: 0;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -153,7 +146,6 @@ ul {
   font-family: "M PLUS 1", sans-serif;
   /* margin-top: 1rem; */
   line-height: 1.6rem;
-  
 }
 
 .project-link:hover {
@@ -167,10 +159,10 @@ li {
 }
 
 .menu-button {
-  display: none; 
+  display: none;
 }
 
-.mobile-menu{
+.mobile-menu {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -181,76 +173,65 @@ li {
   color: #afafaf;
 }
 
-  
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem; /* Adds spacing between child elements */
+    margin-left: -3rem;
+  }
 
-  
-    .home-container {
-      
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-      gap: 0.5rem; /* Adds spacing between child elements */
-      margin-left: -3rem;
-      
-    }
-    
+  .background-gif {
+    z-index: -1;
+   margin-top: 15%;
+   object-fit: cover;
+  }
 
-  
-  
-    
-    .title {
-     margin-top: 2rem;
-      color: #646060;
-      font-size: 1.25rem;
-      font-family: "M PLUS 1", sans-serif;
-      font-weight: normal;
-      white-space: nowrap;
-      margin-left: 2rem;
-    }
-    
-      .menu-button {
-     
-      font-weight: normal;
-      font-family: "M PLUS 1", sans-serif;
-      display: block;
-      margin-left: 2rem;
-      margin-top: 1rem;
-      background-color: transparent; 
-      border: none; 
-      color: #646060; 
-      font-size: 20px; 
-      text-decoration: none; 
-      }
-      .info-links {
-      display: none; 
-      text-align: left;
-     
-      
-      }
-  
-      .info-links.show {
-      display: block;
-      
-      }
-  
-      .project-links {
-      display: none; 
-      text-align: left;
-      margin-left: 2rem;
-      }
-  
-      .project-links.show {
-      display: block; 
-      margin-top: 0; 
-      padding-left: 0; 
-      list-style: none; 
-      
-      }
-     
-    
 
-    }
 
- 
+  .title {
+    margin-top: 2rem;
+    color: #646060;
+    font-size: 1.25rem;
+    font-family: "M PLUS 1", sans-serif;
+    font-weight: normal;
+    white-space: nowrap;
+    margin-left: 2rem;
+  }
+
+  .menu-button {
+    font-weight: normal;
+    font-family: "M PLUS 1", sans-serif;
+    display: block;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    border: none;
+    color: #646060;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .info-links {
+    display: none;
+    text-align: left;
+  }
+
+  .info-links.show {
+    display: block;
+  }
+
+  .project-links {
+    display: none;
+    text-align: left;
+    margin-left: 2rem;
+  }
+
+  .project-links.show {
+    display: block;
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+}
