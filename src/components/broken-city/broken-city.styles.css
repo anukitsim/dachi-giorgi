@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 3rem;
   height: auto;
-  padding-top: 10rem;
+  padding-top: 8rem;
   margin: 2rem;
 }
 
@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: row;
   gap: 2rem;
+  position: relative;
  
   
   
@@ -39,7 +40,6 @@ gap: 2rem;
 .broken-div3{
   width: 100%;
   height: 100%;
-  margin-top: -6%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -69,6 +69,8 @@ gap: 2rem;
 
 .brokenimg3{
   width: 100%;
+ 
+  margin-top: -2.5rem;
 }
 
 .broken-city-header2{
@@ -88,8 +90,10 @@ gap: 2rem;
 }
 
 .brokenimg2{
-  width: 100%;
-  margin-top: -20%;
+width: 60%;
+top: 18%;
+left: -7%;
+  position: absolute
 }
 
 .image2-div{

@@ -65,33 +65,33 @@
         <Row>
           <Col className='home-container' sm={{ span: 12  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}} >
           {showBackground && (
-  <div id="video-container" className="background-container">
-    <video
-      className='background-video'
-      id="fullscreen-video"
-      src={backgroundVideo}
-      style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, objectFit: 'cover' }}
-      autoPlay
-      loop
-      muted
-      playsInline
-    />
-    <img
-      className='background-img'
-      src={backgroundImg}
-      alt="background"
-      style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, opacity: 0.4, objectFit: 'cover' }}
-    />
-  </div>
-)}
-{showMarch32Background && (
-  <img
-    className='march-background-img'
-    src={march32Background}
-    alt="background"
-    style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, objectFit: 'cover' }}
-  />
-)}
+          <div id="video-container" className="background-container">
+            <video
+        className='background-video'
+          id="fullscreen-video"
+          src={backgroundVideo}
+          style={{ position: 'absolute',  width: '100%', height: '100%', objectFit: 'cover' }}
+          autoPlay
+          loop
+          muted
+          playsinline
+        />
+        <img
+        className='background-img'
+          src={backgroundImg}
+          alt="background"
+          style={{ position: 'absolute',  width: '100%', height: '160%', opacity: 0.4, objectFit: 'cover' }}
+        />
+          </div>
+        )}
+        {showMarch32Background && (
+          <img
+          className='march-background-img'
+          src={march32Background}
+          alt="background"
+          style={{ position: 'absolute',  width: '100%', height: 'auto', objectFit: 'cover' }}
+        />
+        )}
         
             <div className={isMobileMenuVisible ? 'mobile-menu visible' : 'mobile-menu'}>
               
