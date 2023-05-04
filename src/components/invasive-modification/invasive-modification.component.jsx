@@ -49,7 +49,7 @@
           <Col
             className="invasiveModification-container d-flex 
           "
-            xs={12}
+            xs={10}
             md={6}
             lg={10}
             xxl={10}

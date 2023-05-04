@@ -16,7 +16,7 @@ const Obj = () => {
         <Col xs={12} md={6} lg={2} xxl={2} className="home-container" style={{ paddingLeft: 0 }}>
           <Home />
         </Col>
-        <Col xs={12} md={6} lg={8} xxl={9} className="obj-container">
+        <Col xs={12} sm={12} md={12} lg={8} xxl={9} className="obj-container">
 
         <div className="obj-div1">
         <img src={objImg1} alt="obg-img-1" className="obj-img1" />
@@ -54,4 +54,3 @@ const Obj = () => {
 };
 
 export default Obj;
-
