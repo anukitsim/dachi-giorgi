@@ -1,0 +1,46 @@
+.protection-col{
+    display: flex;
+    flex-direction: row;
+}
+
+.protection1{
+    height: 100vh;
+}
+
+.protection-img1{
+    width: 200%;
+    margin-left: -55%;
+    margin-top: -4.6%;
+}
+
+.protection-img2{
+    width: 100%;
+    margin-top: 2%;
+    
+}
+
+.protection-text{
+    color: #484848;
+    font-size: 0.9rem;
+    font-weight: normal;
+    font-family: 'M PLUS 1', sans-serif;
+    text-align: right;
+    margin-top: 10%;
+    margin-top: 5%;
+   
+    }
+
+    .protection2{
+        margin-top: 19%;
+        margin-left: -5%;  
+    }
+
+    .protection-text2{
+        color: #484848;
+        font-size: 0.9rem;
+        font-weight: normal;
+        font-family: 'M PLUS 1', sans-serif;
+        text-align: right;
+        width: 93%;
+        margin-left: 7%;
+    }

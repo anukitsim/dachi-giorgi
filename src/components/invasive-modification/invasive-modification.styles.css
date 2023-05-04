@@ -45,7 +45,7 @@ flex-direction: row;
   position: absolute;
   z-index: -1;
   top: -30%;
-  width: 110%;
+  max-width: 110%;
 
 }
 
@@ -58,7 +58,7 @@ flex-direction: row;
 
 .invasiveModification-header{
  
-  color: #646060;
+  color: #484848;
   font-size: 1.25rem;
   font-weight: normal;
   font-family: 'M PLUS 1', sans-serif;
@@ -68,7 +68,7 @@ flex-direction: row;
 }
 
 .video-text{
-  color: #646060;
+  color: #484848;
   font-size: 1.25rem;
   font-weight: normal;
   font-family: 'M PLUS 1', sans-serif;
@@ -92,7 +92,7 @@ flex-direction: row;
 }
 
 .div4 p{
-  color: #646060;
+  color: #484848;
   font-size: 1rem;
   font-weight: normal;
   line-height: 0.5rem;
@@ -118,7 +118,7 @@ flex-direction: row;
     height: 0.5rem;
     border-radius: 50%;
     border: 1px solid #000;
-    background-color: #afafaf;
+    background-color: #909090;
     margin: 0 0.5rem;
     
   
@@ -195,7 +195,7 @@ flex-direction: row;
     height: 0.5rem;
     border-radius: 50%;
     border: 1px solid #000;
-    background-color: #afafaf;
+    background-color: #909090;
     margin: 0 0.5rem;
     
   }

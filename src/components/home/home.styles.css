@@ -28,6 +28,9 @@
   background-color: #dbdbdbe2;
 }
 
+.i-need-protection-body{
+  background-color: #080808;
+}
 
 .home-container {
   display: flex;
@@ -72,7 +75,11 @@
   height: 100%;
   object-fit: cover;
   z-index: -1;
-  margin-top: -40%;
+  width: 100%;
+  height: 200vh;
+
+  
+
   
 }
 
@@ -93,7 +100,7 @@
 .title {
   margin-left: 1.7rem;
   display: flex;
-  color: #646060;
+  color: #484848;
   font-size: 1.25rem;
   font-family: "M PLUS 1", sans-serif;
   font-weight: normal;
@@ -106,25 +113,25 @@
   font-family: "M PLUS 1", sans-serif;
 }
 
-.info-links:hover {
-  color: #afafaf;
+.info-link:hover {
+  color: #909090;
   text-decoration: none;
 }
 
 .info-link {
-  color: #afafaf;
+  color: #909090;
   text-decoration: none;
   line-height: 1.6rem;
 }
 
 .title-link {
-  color: #646060;
+  color: #484848;
   text-decoration: none;
   font-family: "M PLUS 1", sans-serif;
 }
 
 .title-link:hover {
-  color: #646060;
+  color: #484848;
   text-decoration: none;
 }
 
@@ -135,7 +142,7 @@ ul {
 }
 
 .project-link {
-  color: #646060;
+  color: #484848;
   text-decoration: none;
 
   vertical-align: top;
@@ -151,7 +158,7 @@ ul {
 }
 
 .project-link:hover {
-  color: #646060;
+  color: #484848;
   text-decoration: none;
 }
 
@@ -172,7 +179,7 @@ li {
 }
 
 .current-page {
-  color: #afafaf;
+  color: #909090;
 }
 
 @media screen and (max-width: 767px) {
@@ -187,19 +194,24 @@ li {
 
   .background-gif {
     z-index: -1;
-  overflow-x: hidden;
+ 
    object-fit: cover;
    position: fixed;
    top:0;
-   min-height: 1000px;
-   margin-top: -2%;
+   object-position: center;
+   width: 100vw;
+   height: 100vh;
+  
+
+  
+
   }
 
 
 
   .title {
     margin-top: 2rem;
-    color: #646060;
+    color: #484848;
     font-size: 1.25rem;
     font-family: "M PLUS 1", sans-serif;
     font-weight: normal;
@@ -215,7 +227,7 @@ li {
     margin-top: 1rem;
     background-color: transparent;
     border: none;
-    color: #646060;
+    color: #484848;
     font-size: 20px;
     text-decoration: none;
   }

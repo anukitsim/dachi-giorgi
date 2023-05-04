@@ -6,6 +6,8 @@
   import backgroundImg from '../../imgs/background-img.png';
   import march32Background from '../../imgs/march32.png';
   import gif from '../../gif/gif.mp4';
+  import psrAudio from '../../audio/psr.mp3';
+
 
 
 
@@ -13,6 +15,8 @@
     const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
     const [showBackground, setShowBackground] = useState(false);
     const [showMarch32Background, setShowMarch32Background] = useState(false);
+    const [playAudio, setPlayAudio] = useState(false);
+
     
 
     const [showGif, setShowGif] = useState(false);
@@ -25,54 +29,25 @@
       setIsMobileMenuVisible(!isMobileMenuVisible);
     };
 
-    useEffect(() => {
-      const body = document.querySelector('body');
-      
-      if (location.pathname === '/invasive-modification') {
-        body.classList.add('invasive-modification-body');
-      } else {
-        body.classList.remove('invasive-modification-body');
-      }
-      if (location.pathname === '/') {
-        body.classList.add('home-body');
-      } else {
-        body.classList.remove('home-body');
-      }
-      if (location.pathname === '/thewitness') {
-        body.classList.add('thewitness-body');
-      } else {
-        body.classList.remove('thewitness-body');
-      }
-      if (location.pathname === '/STEPS') {
-        body.classList.add('thesteps-body');
-      } else {
-        body.classList.remove('thesteps-body');
-      }
-      if (location.pathname === '/obj') {
-        body.classList.add('obj-body');
-      } else {
-        body.classList.remove('obj-body');
-      }
-      if (location.pathname === '/dead-vase') {
-        body.classList.add('dead-vase-body');
-      } else {
-        body.classList.remove('dead-vase-body');
-      }
-      if (location.pathname === '/broken-city') {
-        body.classList.add('broken-city-body');
-      } else {
-        body.classList.remove('broken-city-body');
-      }
-
-      setShowGif(location.pathname === '/psr');
-
-    
-      setShowBackground(location.pathname === '/hyphen');
-      setShowMarch32Background(location.pathname === '/march32');
-
-  
-
-    }, [location.pathname]);
+   
+  useEffect(() => {
+    const body = document.querySelector('body');
+    body.classList.remove(
+      'invasive-modification-body',
+      'home-body',
+      'thewitness-body',
+      'thesteps-body',
+      'obj-body',
+      'dead-vase-body',
+      'broken-city-body',
+      'i-need-protection-body'
+    );
+    body.classList.add(`${location.pathname.substring(1)}-body`);
+    setShowGif(location.pathname === '/psr');
+    setShowBackground(location.pathname === '/hyphen');
+    setShowMarch32Background(location.pathname === '/march32');
+    setPlayAudio(location.pathname === '/psr');
+  }, [location.pathname]);
 
     
 
@@ -89,7 +64,7 @@
         className='background-video'
           id="fullscreen-video"
           src={backgroundVideo}
-          style={{ position: 'absolute',  width: '100%', height: '100%', objectFit: 'cover' }}
+          style={{ position: 'absolute',  width: '100vw', height: '100%', objectFit: 'cover' }}
           autoPlay
           loop
           muted
@@ -116,13 +91,17 @@
   <video
     className='background-gif'
     src={gif}
-    style={{ position: 'absolute', width: '100vw', height: 'auto', objectFit: 'cover' }}
+    style={{ position: 'absolute',  objectFit: 'cover' }}
     autoPlay
     loop
     muted
     playsInline
   />
 )}
+{playAudio && (
+  <audio src={psrAudio} autoPlay loop />
+)}
+
 
         
             <div className={isMobileMenuVisible ? 'mobile-menu visible' : 'mobile-menu'}>

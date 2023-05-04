@@ -31,25 +31,25 @@
 
  .steps-caption1{
 margin-left: 1.9rem;
-color: #646060;
+color: #484848;
 font-size: 0.75rem;
 font-weight: normal;
  }
 
  .steps-caption2{
   margin-right: -2.2rem;
-  color: #646060;
+  color: #484848;
   font-size: 0.75rem;
   font-weight: normal;
 }
 .music-link{
   text-decoration: none;
-    color: #646060;
+    color: #484848;
 }
 
 .music-link:hover {
     text-decoration: none;
-    color: #646060;
+    color: #484848;
 }
 
 @media screen and (max-width: 767px){
