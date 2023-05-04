@@ -31,7 +31,7 @@ const BrokenCity = () => {
           <img src={brokenImg3} alt="brojenimg3" className="brokenimg3" />
           </div>
           <div className="broken-div3">
-          <h1 className="broken-city-header3">Barbed Wirek</h1>
+          <h1 className="broken-city-header3">Barbed Wire</h1>
         <p className="text3-subtext">
           Quote of the Georgian people "20% of my land is occupied by Russia"
           was initially the truth, but slowly we realised that 20% is only the

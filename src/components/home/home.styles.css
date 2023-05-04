@@ -187,7 +187,7 @@ li {
 
   .background-gif {
     z-index: -1;
-  
+  overflow-x: hidden;
    object-fit: cover;
    position: fixed;
    top:0;
