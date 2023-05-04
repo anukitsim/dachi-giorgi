@@ -23,8 +23,8 @@
   gap: 3rem;
   width: 50%;
   position: absolute;
-  top: 40%;
-  left: 65%;
+  top: 70%;
+  left: 70%;
   transform: translate(-50%, -20%);
 
 }
@@ -33,7 +33,7 @@
   width: 55%;
   position: absolute;
  left: 5%;
-top:68%;
+top: 130%;
 padding-bottom: 4rem;
 display: flex;
 flex-direction: row;
@@ -42,8 +42,10 @@ flex-direction: row;
 }
 
 .img1 {
-  
-  width: 120%;
+  position: absolute;
+  z-index: -1;
+  top: -30%;
+  width: 110%;
 
 }
 
@@ -106,7 +108,7 @@ flex-direction: row;
   align-items: center;
   width: 100%;
   position: absolute;
-  top: 110%;
+  top: 235%;
   left: 22%;
   
 }
