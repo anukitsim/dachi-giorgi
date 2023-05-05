@@ -8,7 +8,6 @@ import Steps from "./components/steps/steps.component";
 import Hyphen from './components/hyphen/hyphen.component'
 import Protection from "./components/protection/protection.component";
 import FrenchLessons from "./components/french-lessons/french-lessons.component";
-
 import March32 from "./components/march32/march32.component";
 import LuceSide from "./components/in-luce-side/in-luce-side.component";
 import PSR from "./components/psr/psr.component";
@@ -18,12 +17,23 @@ import Garbage from "./components/garbage/garbage.component";
 import BrokenCity from "./components/broken-city/broken-city.component";
 import DeadVase from "./components/dead-vase/dead-vase.component";
 
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 
 
 
 
 const App = () => {
+  const location = useLocation();
 
+  useEffect(() => {
+    if (location.pathname === '/') {
+      document.body.style.backgroundColor = '#dbdbdb'; 
+    } else {
+      document.body.style.backgroundColor = ''; 
+    }
+  }, [location.pathname]);
   
   return (
     <div className="App">

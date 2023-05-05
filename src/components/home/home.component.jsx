@@ -36,7 +36,6 @@
   useEffect(() => {
     const body = document.querySelector('body');
     body.classList.remove(
-      
       'invasive-modification-body',
       'home-body',
       'thewitness-body',
@@ -60,7 +59,7 @@
     
 
     return (
-      <Container fluid className='home-fluid'>
+      <Container fluid >
 
         <Row>
           <Col className='home-container' sm={{ span: 12  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}} >
