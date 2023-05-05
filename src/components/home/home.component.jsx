@@ -11,11 +11,14 @@
 
 
 
+
+
   const Home = () => {
     const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
     const [showBackground, setShowBackground] = useState(false);
     const [showMarch32Background, setShowMarch32Background] = useState(false);
     const [playAudio, setPlayAudio] = useState(false);
+  
 
     
 
@@ -33,20 +36,23 @@
   useEffect(() => {
     const body = document.querySelector('body');
     body.classList.remove(
+      
       'invasive-modification-body',
       'home-body',
       'thewitness-body',
-      'thesteps-body',
+      'STEPS-body',
       'obj-body',
       'dead-vase-body',
       'broken-city-body',
-      'i-need-protection-body'
+      'i-need-protection-body',
+      
     );
     body.classList.add(`${location.pathname.substring(1)}-body`);
     setShowGif(location.pathname === '/psr');
     setShowBackground(location.pathname === '/hyphen');
     setShowMarch32Background(location.pathname === '/march32');
     setPlayAudio(location.pathname === '/psr');
+   
   }, [location.pathname]);
 
     
@@ -54,7 +60,7 @@
     
 
     return (
-      <Container fluid>
+      <Container fluid className='home-fluid'>
 
         <Row>
           <Col className='home-container' sm={{ span: 12  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}} >
@@ -101,6 +107,7 @@
 {playAudio && (
   <audio src={psrAudio} autoPlay loop />
 )}
+
 
 
         

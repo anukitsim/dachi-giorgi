@@ -2,30 +2,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
-.home-body {
-  background-color: #dbdbdbe2;
+.home-fluid{
+  width: 100vw;
+  height: 100vh;
+  background-color: #dbdbdb;
 }
+
+
+
 
 .thewitness-body {
-  background-color: #dbdbdbe2;
+  background-color: #dbdbdb;
 }
 
-.thesteps-body {
-  background-color: #dbdbdbe2;
+.STEPS-body {
+  background-color: #dbdbdb;
 }
 
 .obj-body {
-  background-color: #dbdbdbe2;
+  background-color: #dbdbdb;
 }
 
 .dead-vase-body {
-  background-color: #dbdbdbe2;
+  background-color: #dbdbdb;
 }
 
 .broken-city-body {
-  background-color: #dbdbdbe2;
+  background-color: #dbdbdb;
 }
 
 .i-need-protection-body{
@@ -33,6 +39,7 @@
 }
 
 .home-container {
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -96,6 +103,8 @@
   width: 100vw;
   height: 100vh;
 }
+
+
 
 .title {
   margin-left: 1.7rem;

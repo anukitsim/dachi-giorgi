@@ -8,17 +8,23 @@ import Steps from "./components/steps/steps.component";
 import Hyphen from './components/hyphen/hyphen.component'
 import Protection from "./components/protection/protection.component";
 import FrenchLessons from "./components/french-lessons/french-lessons.component";
-import './index.css';
+
 import March32 from "./components/march32/march32.component";
 import LuceSide from "./components/in-luce-side/in-luce-side.component";
 import PSR from "./components/psr/psr.component";
-
+import './index.css'
 import Obj from "./components/obj/obj.component";
 import Garbage from "./components/garbage/garbage.component";
 import BrokenCity from "./components/broken-city/broken-city.component";
 import DeadVase from "./components/dead-vase/dead-vase.component";
 
+
+
+
+
 const App = () => {
+
+  
   return (
     <div className="App">
       <Routes>

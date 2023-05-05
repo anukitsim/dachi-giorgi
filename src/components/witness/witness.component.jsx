@@ -25,7 +25,7 @@ const Witness = () => {
           xl={{ span: 9}}
         >
           <p className="witness-text1">
-            A world-renowned museum of Louvre, has extended
+            Museum of Louvre, has extended
             an invitation to twenty young creative professionals to present
             their distinctive interpretation of the institution through the
             medium of a 3 minute film. The initiative, aptly named

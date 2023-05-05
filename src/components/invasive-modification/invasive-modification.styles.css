@@ -1,208 +1,164 @@
 .invasiveModification-container {
   display: flex;
   flex-direction: row;
-  position: relative;
+  height: 100vh;
+  padding-top: 7rem;
+  margin-left: 3rem;
+}
+
+.invasive-div1 {
   width: 100%;
-  padding-top: 10.2rem;
-
-  
-  
 }
 
-.div1 {
-  width: 60%;
-  padding-left: 2rem;
-  position: relative;
-}
-
-.div2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end;
-  gap: 3rem;
-  width: 50%;
-  position: absolute;
-  top: 70%;
-  left: 70%;
-  transform: translate(-50%, -20%);
-
-}
-
-.div3{
-  width: 55%;
-  position: absolute;
- left: 5%;
-top: 130%;
-padding-bottom: 4rem;
-display: flex;
-flex-direction: row;
-
-
-}
-
-.img1 {
-  position: absolute;
+.invasive-img1 {
+  width: 80%;
   z-index: -1;
-  top: -30%;
-  max-width: 110%;
-
+  position: relative;
 }
 
-.invasiveModification-video {
-  width: 100%;
-  
- 
- 
-}
-
-.invasiveModification-header{
- 
+.invasiveModification-header {
   color: #484848;
   font-size: 1.25rem;
   font-weight: normal;
-  font-family: 'M PLUS 1', sans-serif;
-
-  
-  
+  font-family: "M PLUS 1", sans-serif;
+  position: absolute;
+  top: 10.2rem;
 }
 
-.video-text{
+.card-images {
+  width: 45%;
+  z-index: 1;
+}
+
+.invasive-video-wrapper {
+  z-index: 1;
+  width: 55%;
+  height: 100%;
+  margin-top: -110%;
+  margin-left: 50%;
+}
+
+.video-text {
   color: #484848;
   font-size: 1.25rem;
   font-weight: normal;
-  font-family: 'M PLUS 1', sans-serif;
+  font-family: "M PLUS 1", sans-serif;
   text-align: right;
   overflow: hidden;
   line-height: 1.25rem;
 }
 
-.card-images{
-  width: 60%;
-  cursor: pointer;
-}
-
-.div4{
-  
-  padding-left: 1rem;
-  width: 45%;
+.card-wrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: -40%;
+  margin-left: 0;
+  gap: 2rem;
 }
 
-.div4 p{
+.div4 p {
   color: #484848;
   font-size: 1rem;
   font-weight: normal;
   line-height: 0.5rem;
-  font-family: 'M PLUS 1', sans-serif;
+  font-family: "M PLUS 1", sans-serif;
 }
 
-.carousel-bullets{
-  
+.carousel-bullets {
   transform: translateX(-50%);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
-  position: absolute;
-  top: 235%;
-  left: 22%;
-  
+  margin-top: 2%;
+  margin-left: 20%;
+  padding-bottom: 3rem;
 }
 
 .carousel-bullet {
   width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    border: 1px solid #000;
-    background-color: #909090;
-    margin: 0 0.5rem;
-    
-  
-  }
+  height: 0.5rem;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: #909090;
+  margin: 0 0.5rem;
+}
 
-  .active-bullet {
+.active-bullet {
   background-color: #909090;
   transform: scale(1.5);
-  }
+}
 
- 
 @media (max-width: 767px) {
   .invasiveModification-container {
-    flex-direction: column;
-    padding-top: 5rem;
-  }
-  .div1 {
-    width: 100%;
-    padding: 0 2rem;
-    margin-left: -2rem;
-   
-  }
-  .div2 {
-    width: 100%;
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
-    align-items: flex-start;
-    
-    gap: 0.5rem;
-  }
-
-  
-  .div3 {
-    width: 100%;
-    position: relative;
     display: flex;
     flex-direction: column;
-    top: auto;
-    left: auto;
-    margin-top: 2rem;
+  position: relative;
+    
+
+    
+  }
+
+  .invasive-div1{
+    margin-left: -15%;
+    width: 100%;
+  }
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+   margin-left: -5%;
+   margin-top: 8%;
    
+ 
+    
+  }
+
+
+  .div4 p{
+    margin-left: -47%;
+    
+  }
+
+  .div4 p:nth-child(1){
+    margin-top: 25%;
+    
+  }
+
+  .invasiveModification-header{
+    margin-top: -30%;
+    width: 90%;
+  }
+
+  .invasive-img1{
+    width: 100%;
+  }
+
+  .invasive-video-wrapper{
+    width: 100%;
+    height: auto;
+    margin-top: 100%;
+    margin-left: 7%;
   
-  }
-  .card-images {
-    width: 100%;
-    cursor: pointer;
-  }
-  .div4 {
-    width: 100%;
-    margin-top: 4rem;
    
   }
-  .video-text {
+
+  .card-images{
+    width: 80%;
+    
+  }
+
+  .carousel-bullets{
+  margin-top: -100%;
+  margin-left: 50%;
+  }
+
+  .video-text{
+    margin-bottom: 10%;
     text-align: left;
+    margin-left: 5%;
   }
+ 
 
-  .carousel-bullets {
-    position: absolute;
-    top: 78.5%;
-    left: 63%;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    
-  }
-  
-  .carousel-bullet {
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    border: 1px solid #000;
-    background-color: #909090;
-    margin: 0 0.5rem;
-    
-  }
-  
-  
-    .active-bullet {
-    background-color: #909090;
-    transform: scale(1.5);
-    }
 }
