@@ -1,8 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Home from "../home/home.component";
 import "./protection.styles.css";
-import protectionImg1 from "../../imgs/protection1.png";
-import protectionImg2 from "../../imgs/protection2.png";
+
 
 const Protection = () => {
   return (
