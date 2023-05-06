@@ -11,23 +11,23 @@
 
 
 .thewitness-body {
-  background-color: #dbdbdb;
+  background-color: #dfdfdf;
 }
 
 .STEPS-body {
-  background-color: #dbdbdb;
+  background-color: #dfdfdf;
 }
 
 .obj-body {
-  background-color: #dbdbdb;
+  background-color: #dfdfdf;
 }
 
 .dead-vase-body {
-  background-color: #dbdbdb;
+  background-color: #dfdfdf;
 }
 
 .broken-city-body {
-  background-color: #dbdbdb;
+  background-color: #dfdfdf;
 }
 
 .i-need-protection-body{
@@ -47,6 +47,10 @@
 }
 
 .invasive-modification-body {
+  background-color: #080808;
+}
+
+.french-lessons-body{
   background-color: #080808;
 }
 
@@ -100,6 +104,9 @@
   height: 100vh;
 }
 
+.protection-img1{
+  margin-left: -10%;
+}
 
 
 .title {

@@ -12,14 +12,12 @@
 
 
 
-
   const Home = () => {
     const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
     const [showBackground, setShowBackground] = useState(false);
     const [showMarch32Background, setShowMarch32Background] = useState(false);
     const [playAudio, setPlayAudio] = useState(false);
-  
-
+   
     
 
     const [showGif, setShowGif] = useState(false);
@@ -44,13 +42,15 @@
       'dead-vase-body',
       'broken-city-body',
       'i-need-protection-body',
-      
+      'french-lessons'
     );
     body.classList.add(`${location.pathname.substring(1)}-body`);
     setShowGif(location.pathname === '/psr');
     setShowBackground(location.pathname === '/hyphen');
     setShowMarch32Background(location.pathname === '/march32');
     setPlayAudio(location.pathname === '/psr');
+ 
+
    
   }, [location.pathname]);
 

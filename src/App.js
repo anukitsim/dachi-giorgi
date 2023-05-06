@@ -29,7 +29,7 @@ const App = () => {
 
   useEffect(() => {
     if (location.pathname === '/') {
-      document.body.style.backgroundColor = '#dbdbdb'; 
+      document.body.style.backgroundColor = '#dfdfdf'; 
     } else {
       document.body.style.backgroundColor = ''; 
     }
