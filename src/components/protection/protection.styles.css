@@ -1,5 +1,6 @@
 .protection-container{
     position: relative;
+    pointer-events: none;
    
 }
 
