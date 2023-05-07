@@ -17,6 +17,15 @@
       const [showBackground, setShowBackground] = useState(false);
       const [showMarch32Background, setShowMarch32Background] = useState(false);
       const [playAudio, setPlayAudio] = useState(false);
+      const [audioStarted, setAudioStarted] = useState(false);
+
+      const audioRef = useRef(null);
+
+      useEffect(() => {
+        audioRef.current.addEventListener('play', () => {
+          setAudioStarted(true);
+        });
+      }, []);
     
       
 
@@ -110,9 +119,8 @@
       playsInline
     />
   )}
-  {playAudio && (
-    <audio src={psrAudio} autoPlay loop />
-  )}
+  {audioStarted && <audio ref={audioRef} src={psrAudio} loop autoPlay />}
+
 
 
 
