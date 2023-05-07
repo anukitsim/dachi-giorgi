@@ -3,6 +3,7 @@ import Home from "../home/home.component";
 import "./protection.styles.css";
 import protectionImg1 from "../../imgs/protection1.png";
 import protectionImg2 from "../../imgs/protection2.png";
+import protectionImgMobile from "../../imgs/protection-mobile.png";
 
 const Protection = () => {
   return (
@@ -39,12 +40,32 @@ const Protection = () => {
               alt="protection-img1"
               className="protection-img1"
             />
+          
+            
+            <img
+              src={protectionImgMobile}
+              alt="protection--mobile"
+              className="protection-mobile  d-md-none"
+            />
             <Col className="protection2">
               <img
                 src={protectionImg2}
                 alt="protection-img2"
                 className="protection-img2"
               />
+              <p className="protection-text-mobile d-md-none">
+              Object is a piece of armour, perhaps, "a skin of metal" as older
+              men suggested me to obtain to me as a kid. A way of protection in
+              the country dedicated to burning of my family, family who want to
+              live in their country and be true to themeselves against the norms
+              of the elderly who can't see the world past false walls of so
+              called holly place, a place of which in truth god is not part of.
+              Using silver and bronze handiet was casted and formed by hand
+              without the use of the machines, this process was crucial to
+              insure the connection I could obtain with it. With all the effort
+              and energy it has absorbed to support the one to whom it belongs
+              at any given moment in the History of its existence.
+            </p>
               <p className="protection-text">
                 Currently Handlet is owned by Sadie Sink on the random day on
                 which we have stumbled into each other she became captivated
