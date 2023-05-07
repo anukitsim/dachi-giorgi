@@ -1,4 +1,4 @@
-    import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
     import { Link,  useLocation } from 'react-router-dom';
     import { Container, Row, Col } from 'react-bootstrap';
     import './home.styles.css';
@@ -17,15 +17,6 @@
       const [showBackground, setShowBackground] = useState(false);
       const [showMarch32Background, setShowMarch32Background] = useState(false);
       const [playAudio, setPlayAudio] = useState(false);
-      const [audioStarted, setAudioStarted] = useState(false);
-
-      const audioRef = useRef(null);
-
-      useEffect(() => {
-        audioRef.current.addEventListener('play', () => {
-          setAudioStarted(true);
-        });
-      }, []);
     
       
 
@@ -119,8 +110,9 @@
       playsInline
     />
   )}
-  {audioStarted && <audio ref={audioRef} src={psrAudio} loop autoPlay />}
-
+  {playAudio && (
+    <audio src={psrAudio} autoPlay loop playsInline/>
+  )}
 
 
 
