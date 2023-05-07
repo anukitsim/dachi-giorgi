@@ -29,8 +29,8 @@ const Protection = () => {
             className="protection1"
             sm={{ span: 6 }}
             md={{ span: 6 }}
-            lg={{ span: 9 }}
-            xl={{ span: 9 }}
+            lg={{ span: 10 }}
+            xl={{ span: 10 }}
           >
             <img
               src={protectionImg1}

@@ -33,6 +33,13 @@
 .i-need-protection-body{
   background-color: #080808;
 }
+.invasive-modification-body {
+  background-color: #080808;
+}
+
+.french-lessons-body{
+  background-color: #080808;
+}
 
 .home-container {
 
@@ -46,13 +53,7 @@
   max-height: 31.25rem;
 }
 
-.invasive-modification-body {
-  background-color: #080808;
-}
 
-.french-lessons-body{
-  background-color: #080808;
-}
 
 .background-container {
   position: fixed;
