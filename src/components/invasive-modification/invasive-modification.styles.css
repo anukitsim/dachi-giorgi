@@ -109,11 +109,12 @@
     display: flex;
     flex-direction: column;
    margin-left: -5%;
-   margin-top: 8%;
+   margin-top: 120%;
    
  
     
   }
+
 
 
   .div4 p{
@@ -138,7 +139,7 @@
   .invasive-video-wrapper{
     width: 100%;
     height: auto;
-    margin-top: 100%;
+    margin-top: -250%;
     margin-left: 7%;
   
    

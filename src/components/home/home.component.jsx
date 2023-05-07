@@ -52,7 +52,7 @@
        
         if (location.pathname !== '/french-lessons') {
           body.classList.remove('french-lessons-body');
-        }
+        } 
        
         
       }, [location.pathname]);
