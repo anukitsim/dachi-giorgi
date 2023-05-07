@@ -31,28 +31,32 @@
       };
 
     
-    useEffect(() => {
-      const body = document.querySelector('body');
-      body.classList.remove(
-        'invasive-modification-body',
-        'home-body',
-        'thewitness-body',
-        'STEPS-body',
-        'obj-body',
-        'dead-vase-body',
-        'broken-city-body',
-        'i-need-protection-body',
-        'french-lessons'
-      );
-      body.classList.add(`${location.pathname.substring(1)}-body`);
-      setShowGif(location.pathname === '/psr');
-      setShowBackground(location.pathname === '/hyphen');
-      setShowMarch32Background(location.pathname === '/march32');
-      setPlayAudio(location.pathname === '/psr');
-  
-
-    
-    }, [location.pathname]);
+      useEffect(() => {
+        const body = document.querySelector('body');
+        body.classList.remove(
+          'invasive-modification-body',
+          'home-body',
+          'thewitness-body',
+          'STEPS-body',
+          'obj-body',
+          'dead-vase-body',
+          'broken-city-body',
+          'i-need-protection-body',
+          'french-lessons'
+        );
+        body.classList.add(`${location.pathname.substring(1)}-body`);
+        setShowGif(location.pathname === '/psr');
+        setShowBackground(location.pathname === '/hyphen');
+        setShowMarch32Background(location.pathname === '/march32');
+        setPlayAudio(location.pathname === '/psr');
+       
+        if (location.pathname !== '/french-lessons') {
+          body.classList.remove('french-lessons-body');
+        }
+       
+        
+      }, [location.pathname]);
+      
 
       
 

@@ -13,7 +13,7 @@ const Protection = () => {
           xs={12}
           md={4}
           lg={2}
-          xxl={2}
+          xl={2}
           style={{ paddingLeft: 0 }}
         >
           <Home />
@@ -29,8 +29,8 @@ const Protection = () => {
             className="protection1"
             sm={{ span: 6 }}
             md={{ span: 6 }}
-            lg={{ span: 10 }}
-            xl={{ span: 10 }}
+            lg={{ span: 9 }}
+            xl={{ span: 9 }}
           >
             <img
               src={protectionImg1}
