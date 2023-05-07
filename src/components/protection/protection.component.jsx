@@ -48,12 +48,7 @@ const Protection = () => {
               className="protection-mobile  d-md-none"
             />
             <Col className="protection2">
-              <img
-                src={protectionImg2}
-                alt="protection-img2"
-                className="protection-img2"
-              />
-              <p className="protection-text-mobile d-md-none">
+            <p className="protection-text-mobile d-md-none">
               Object is a piece of armour, perhaps, "a skin of metal" as older
               men suggested me to obtain to me as a kid. A way of protection in
               the country dedicated to burning of my family, family who want to
@@ -66,6 +61,12 @@ const Protection = () => {
               and energy it has absorbed to support the one to whom it belongs
               at any given moment in the History of its existence.
             </p>
+              <img
+                src={protectionImg2}
+                alt="protection-img2"
+                className="protection-img2"
+              />
+        
               <p className="protection-text">
                 Currently Handlet is owned by Sadie Sink on the random day on
                 which we have stumbled into each other she became captivated
