@@ -35,25 +35,25 @@ const App = () => {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="thewitness" element={<Witness />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/thewitness" element={<Witness />} />
         <Route
-          path="invasive-modification"
+          path="/invasive-modification"
           element={<InvasiveModification />}
         />
-        <Route path="STEPS" element={<Steps />} />
-        <Route path="hyphen" element={<Hyphen />} />
-        <Route path="i-need-protection" element={<Protection />} />
-        <Route path="obj" element={<Obj />} />
-        <Route path="french-lessons" element={<FrenchLessons />} />
+        <Route path="//STEPS" element={<Steps />} />
+        <Route path="/hyphen" element={<Hyphen />} />
+        <Route path="/i-need-protection" element={<Protection />} />
+        <Route path="/obj" element={<Obj />} />
+        <Route path="/french-lessons" element={<FrenchLessons />} />
 
-        <Route path="garbage-throne" element={<Garbage />} />
+        <Route path="/garbage-throne" element={<Garbage />} />
 
-        <Route path="psr" element={<PSR />} />
-        <Route path="dead-vase" element={<DeadVase />} />
-        <Route path="broken-city" element={<BrokenCity />} />
+        <Route path="/psr" element={<PSR />} />
+        <Route path="/dead-vase" element={<DeadVase />} />
+        <Route path="/broken-city" element={<BrokenCity />} />
 
-        <Route path="march32" element={<March32 />} />
+        <Route path="/march32" element={<March32 />} />
       </Routes>
     </div>
   );
