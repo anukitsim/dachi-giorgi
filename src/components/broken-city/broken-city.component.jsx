@@ -21,7 +21,7 @@ const BrokenCity = () => {
           a collapsed building in my hometown of Batumi. The catastrophical fail
           in the buildings base caused an immediate crash of a 7 floor apartment
           building, nine people, including three children, have been found dead
-          in the wreckage. This incident was caused by the ceaselessness of a
+          in the wreckage. This incident was caused by the carelessness of a
           construction worker and their boss.
         </p>
         <img src={brokenImg1} alt="brokenimg1" className="brokenimg1" />
