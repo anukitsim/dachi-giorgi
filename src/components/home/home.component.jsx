@@ -42,7 +42,8 @@ import { useState, useEffect } from 'react';
           'dead-vase-body',
           'broken-city-body',
           'i-need-protection-body',
-          'french-lessons'
+          'french-lessons-body',
+          'garbage-throne-body'
         );
         body.classList.add(`${location.pathname.substring(1)}-body`);
         setShowGif(location.pathname === '/psr');
@@ -50,9 +51,9 @@ import { useState, useEffect } from 'react';
         setShowMarch32Background(location.pathname === '/march32');
         setPlayAudio(location.pathname === '/psr');
        
-        if (location.pathname !== '/french-lessons') {
-          body.classList.remove('french-lessons-body');
-        } 
+        // if (location.pathname !== '/french-lessons') {
+        //   body.classList.remove('french-lessons-body');
+        // } 
        
         
       }, [location.pathname]);

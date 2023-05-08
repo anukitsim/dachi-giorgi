@@ -41,6 +41,10 @@
   background-color: #080808;
 }
 
+.garbage-throne-body{
+  background-color: #dfdfdf;
+}
+
 .home-container {
 
   display: flex;
