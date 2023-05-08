@@ -12,7 +12,7 @@ const DeadVase = () => {
       <Col className='home-container' sm={{ span: 12  }}  md={{ span: 4  }} lg={{span: 2 }} xl={{span: 2}} style={{ paddingLeft: 0 }}>
           <Home />
        </Col>
-       <Col className="vase-container" sm={{ span: 12  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}} >
+       <Col className="vase-container" sm={{ span: 10  }} md={{ span:7  }} lg={{span: 9 }} xl={{span: 9}} >
      <div className="dead-vase-div1">
      <img src={vase1} alt="vase1" className="vase-img1" />
      <p className="vase-text1">
