@@ -29,8 +29,8 @@ const Protection = () => {
         >
           <Col
             className="protection1"
-            xs={10}
-            sm={{ span: 10 }}
+            xs={12}
+            sm={{ span: 12 }}
             md={{ span: 6 }}
             lg={{ span: 9 }}
             xl={{ span: 9 }}
