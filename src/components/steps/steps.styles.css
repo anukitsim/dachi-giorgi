@@ -1,7 +1,7 @@
 .steps-container {
     flex-direction: column;
-    padding-top: 12rem;
-    padding-right: 2rem;
+  
+   
     
   
   }
@@ -20,7 +20,7 @@
   }
  
   .steps-container {
-    padding-top: 10.5rem;
+    padding-top: 8.8rem;
   }
 
   .steps-captions{
