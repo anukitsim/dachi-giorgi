@@ -1,7 +1,7 @@
 import Home from "./components/home/home.component";
 import { Route, Routes } from "react-router-dom";
-import Contact from "./components/contact/contact.component";
-import Cv from "./components/cv/cv.component";
+import About from "./components/about/about.component";
+
 import Witness from "./components/witness/witness.component";
 import InvasiveModification from "./components/invasive-modification/invasive-modification.component";
 import Steps from "./components/steps/steps.component";
@@ -39,8 +39,7 @@ const App = () => {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="cv" element={<Cv />} />
+          <Route path="about" element={<About />} />
           <Route path="thewitness" element={<Witness />} />
           <Route
             path="invasive-modification"

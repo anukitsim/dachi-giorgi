@@ -43,7 +43,8 @@ import { useState, useEffect } from 'react';
           'broken-city-body',
           'i-need-protection-body',
           'french-lessons-body',
-          'garbage-throne-body'
+          'garbage-throne-body',
+          'about-body'
         );
         body.classList.add(`${location.pathname.substring(1)}-body`);
         setShowGif(location.pathname === '/psr');
@@ -132,15 +133,11 @@ import { useState, useEffect } from 'react';
                 
             
                   <li>
-                    <Link to="/contact" className="info-link">
-                      Contact
+                    <Link to="/about" className="info-link">
+                      about
                     </Link>
                   </li>
-                  <li>
-                    <Link to="/cv" className="info-link">
-                      CV
-                    </Link>
-                  </li>
+                 
                 </ul>
               
               <ul className={isMobileMenuVisible ? 'project-links show' : 'project-links'}>
